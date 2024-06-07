@@ -1,13 +1,19 @@
-import './Component/Home/HeroSection'
+import React from 'react';
 import './App.css';
-import Welcome from './Component/Home/Welcome';
-import HeroSection from './Component/Home/HeroSection';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import Navbar from './Component/Home/Navbar';
 
 function App() {
   return (
-    <div className="App ">
-   <Welcome/>
-   <HeroSection/>
+    <div className="App">
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

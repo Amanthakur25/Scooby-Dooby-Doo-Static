@@ -2,9 +2,9 @@
 import React from "react";
 import { GiDogHouse } from "react-icons/gi";
 import { GiSittingDog } from "react-icons/gi";
-const ScoobySection = () => {
+const Welcome = () => {
   return (
-    <section className="bg-gray-100">
+    <section className="bg-gray-100 mt-10 mb-5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  ">
         <div className="">
           <h2 className="text-3xl text-center text-gray-900 sm:text-4xl">
@@ -23,24 +23,37 @@ const ScoobySection = () => {
           </p>
           <div className="flex justify-center items-cente mt-5">
             <button className="px-6 py-3 bg-white border-2 border-slate-700 text-orange-500 font-semibold rounded-md  hover:bg-slate-200 r  shadow-2xl">
-              > Read More
+               Read More
             </button>
           </div>
 
           <div className=" flex flex-row justify-center gap-40 mt-10">
             <div className="flex justify-center items-center mt-5">
-              <div className=" bg-slate-400 w-96 p-4 rounded-2xl ">
-                <div className="flex justify-center items-center">
+              <div className=" bg-black w-96 p-4 rounded-2xl ">
+                <div className=" flex flex-col
+                ">
+                <div className="flex justify-center items-center text-white">
                   <GiDogHouse size={150} />
+                </div>
+                <div className="flex justify-center items-center text-white text-2xl ">
+                lUXURY BOARDING
+               </div>
                 </div>
               </div>
             </div>
-
-            <div className=" bg-slate-400 w-96 p-4 rounded-2xl ">
-                <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center mt-5">
+              <div className=" bg-black w-96 p-4 rounded-2xl ">
+                <div className=" flex flex-col
+                ">
+                <div className="flex justify-center items-center text-white">
                   <GiSittingDog size={150} />
                 </div>
+                <div className="flex justify-center items-center text-white text-2xl ">
+                DAYCARE
+               </div>
+                </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -48,4 +61,4 @@ const ScoobySection = () => {
   );
 };
 
-export default ScoobySection;
+export default Welcome;

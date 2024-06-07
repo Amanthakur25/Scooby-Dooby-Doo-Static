@@ -4,7 +4,7 @@ import DogPawBackground from "../../assets/Untitled design.png";
 
 const AccomationSection = () => {
   return (
-    <div className="relative w-full text-center mt-80">
+    <div className="relative w-full text-center mt-80 mb-60">
       <div className="absolute inset-0">
         <img className="w-full h-auto min-h-screen" src={DogPawBackground} alt="Dog Paw Background" />
       </div>
@@ -37,9 +37,10 @@ const AccomationSection = () => {
             <button className="mt-4 px-4 py-2 bg-white text-orange-600 rounded-lg">Read More</button>
           </div>
         </div>
-        <div>
-        <button className='absolute p-4 m-3 border-2 '>Call Us @7702564422</button>
-      </div>
+        
+        <button className={`absolute bottom-[-8%] right-1/2 mb-4 mr-4 p-4 border-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110`}>Call Us @7702564422</button>
+
+     
 
       </div>
 

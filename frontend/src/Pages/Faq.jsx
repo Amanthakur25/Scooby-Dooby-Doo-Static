@@ -48,7 +48,10 @@ const Faq = () => {
         )}
       </div>
 
-      {/* Add more FAQs as needed */}
+      {/* Image Section */}
+      <div className="flex justify-center">
+        <img src="https://img.freepik.com/free-vector/hand-drawn-pet-custody-illustration_23-2150778291.jpg?t=st=1718197220~exp=1718200820~hmac=f7d6c1780b6ef00cd358e1662d93c25b67bd6f018cb68b89f18934a612cab9f3&w=740" alt="Hand drawn pet custody illustration" className="max-w-full h-auto" />
+      </div>
     </div>
   );
 }

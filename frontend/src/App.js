@@ -25,7 +25,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Photo-galary" element={<PhotoGalary />} />
+          <Route path="/photo-galary" element={<PhotoGalary />} />
           <Route path="/video-galary" element={<VideoGallery />} />
           <Route path="/contactUs" element={<ContactUs/>} />
           <Route path="/enquiry" element={<QuickEnuiry/>} />
@@ -38,6 +38,7 @@ function App() {
           <Route path="/dogWalk" element={<DogWalk/>} />
           <Route path="/dogPickupNDrop" element={<DogPickupNDrop/>} />
           <Route path="/faq" element={<Faq/>}/>
+         
         </Routes>
         <Footer/>
       </BrowserRouter>

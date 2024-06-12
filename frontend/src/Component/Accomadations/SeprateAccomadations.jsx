@@ -1,4 +1,5 @@
 import React from 'react';
+import Testimonial from '../Home/Testimonial';
 
 const SeprateAccomadations = () => {
   return (
@@ -65,18 +66,7 @@ const SeprateAccomadations = () => {
       </div>
 
       {/* Testimonials Section */}
-      <div className="testimonials mt-12">
-        <h2 className="text-3xl font-bold text-center mb-8">What Our Guests Say</h2>
-        <div className="flex flex-wrap justify-around">
-          {/* Testimonial Cards */}
-          <div className="testimonial-card bg-white shadow-md rounded p-4 m-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-            <img src="https://via.placeholder.com/150" alt="Guest Testimonial" className="rounded-full w-16 h-16 mx-auto mb-4" />
-            <p>"The accommodation was perfect for my dog and me. Highly recommend!"</p>
-            <p className="text-right font-bold">- Sarah Williams</p>
-          </div>
-          {/* Add more testimonial cards here */}
-        </div>
-      </div>
+     <Testimonial/>
 
     
     </div>

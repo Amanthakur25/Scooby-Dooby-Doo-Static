@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Testimonial from '../Home/Testimonial';
 
 const FeaturedAccommodations = () => {
     const [accommodations] = useState([
@@ -116,21 +117,7 @@ const FriendlyAccommodations = () => {
 
 
             {/* Testimonials Section */}
-            <div className="testimonials mt-12">
-                <h2 className="text-3xl font-bold text-center mb-8">What Our Guests Say</h2>
-                <div className="flex flex-wrap justify-around">
-                    <div className="testimonial-card bg-white shadow-md rounded p-4 m-2 w-1/3">
-                        <img src="https://img.freepik.com/free-photo/closeup-shot-cute-dog-wearing-blue-collar_181624-46402.jpg" alt="Guest Testimonial" className="rounded-full w-16 h-16 mx-auto mb-4" />
-                        <p>"The accommodation was perfect for my dog and me. Highly recommend!"</p>
-                        <p className="text-right font-bold">- Sarah Williams</p>
-                    </div>
-                    <div className="testimonial-card bg-white shadow-md rounded p-4 m-2 w-1/3">
-                        <img src="https://img.freepik.com/free-photo/portrait-happy-dog_53876-94896.jpg" alt="Guest Testimonial" className="rounded-full w-16 h-16 mx-auto mb-4" />
-                        <p>"A fantastic experience! The staff were so friendly and accommodating."</p>
-                        <p className="text-right font-bold">- John Doe</p>
-                    </div>
-                </div>
-            </div>
+           <Testimonial/>
 
           
 

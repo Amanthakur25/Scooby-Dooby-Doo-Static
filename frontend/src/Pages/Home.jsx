@@ -12,6 +12,7 @@ import DoggyDayCare from '../Component/Services/DoggyDayCare'
 import DogWalk from '../Component/Services/DogWalk'
 import DogPickupNDrop from '../Component/Services/DogPickupNDrop'
 import FriendlyAccommodations from '../Component/Accomadations/FrendlyAccomadations'
+import PhotoGallery from '../Component/galary/PhotoGalary'
 
 
 
@@ -25,6 +26,8 @@ const Home = () => {
      <Welcome/>
     <AccomationSection/>  
      <WhyChooseUs/>
+ 
+
   
     </div>
   )

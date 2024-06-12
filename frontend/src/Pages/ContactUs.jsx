@@ -4,7 +4,7 @@
 
 import React, { useState } from 'react';
 
-function ContactPage() {
+const ContactPage = () => {
     const [formData, setFormData] = useState({
         fullname: '',
         email: '',

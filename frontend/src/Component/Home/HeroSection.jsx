@@ -3,7 +3,7 @@ import Dogimg from '../../assets/dogs.jpg';
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${Dogimg})` }}>
+    <div className=" w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${Dogimg})` }}>
       <div className="flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-50">
         <h1 className="text-2xl md:text-5xl lg:text-4xl text-white font-bold mb-4 text-center">
           Luxury Dog Boarding and Daycare Facility

@@ -1,5 +1,6 @@
 import React from 'react';
 import Testimonials from "../Home/Testimonial";
+import Testimonial from '../Home/Testimonial';
 
 const DogBoarding = () => {
     return (
@@ -60,7 +61,7 @@ const DogBoarding = () => {
             </div>
 
             {/* Testimonials Section */}
-            <Testimonials/>
+            <Testimonial/>
 
             {/* Pricing Section */}
             <div className="pricing mt-12">

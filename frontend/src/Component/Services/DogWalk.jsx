@@ -1,4 +1,5 @@
 import React from 'react';
+import Testimonial from '../Home/Testimonial';
 
 const DogWalk = () => {
     return (
@@ -59,21 +60,7 @@ const DogWalk = () => {
             </div>
 
             {/* Testimonials Section */}
-            <div className="testimonials mt-12">
-                <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
-                <div className="flex flex-wrap justify-around">
-                    <div className="testimonial-card bg-white shadow-md rounded p-4 m-2 w-1/3">
-                        <img src="https://img.freepik.com/free-photo/closeup-shot-cute-dog-wearing-blue-collar_181624-46402.jpg" alt="Client Testimonial" className="rounded-full w-16 h-16 mx-auto mb-4" />
-                        <p>"My dog absolutely loves his daily walks! The team is fantastic and always on time."</p>
-                        <p className="text-right font-bold">- Sarah Johnson</p>
-                    </div>
-                    <div className="testimonial-card bg-white shadow-md rounded p-4 m-2 w-1/3">
-                        <img src="https://img.freepik.com/free-photo/portrait-happy-dog_53876-94896.jpg" alt="Client Testimonial" className="rounded-full w-16 h-16 mx-auto mb-4" />
-                        <p>"Great service! I love getting the updates and pictures of my dog enjoying his walk."</p>
-                        <p className="text-right font-bold">- Mark Thompson</p>
-                    </div>
-                </div>
-            </div>
+          <Testimonial/>
 
             {/* Pricing Section */}
             <div className="pricing mt-12">

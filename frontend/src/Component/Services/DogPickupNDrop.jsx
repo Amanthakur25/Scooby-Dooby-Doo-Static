@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaTruckPickup } from "react-icons/fa";
+import Testimonial from '../Home/Testimonial';
 
 const  DogPickupNDrop = () => {
     return (
@@ -82,21 +83,7 @@ const  DogPickupNDrop = () => {
             </div>
 
             {/* Testimonials Section */}
-            <div className="testimonials mt-12">
-                <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
-                <div className="flex flex-wrap justify-around">
-                    <div className="testimonial-card bg-white shadow-md rounded p-4 m-2 w-1/3">
-                        <img src="https://img.freepik.com/free-photo/closeup-shot-cute-dog-wearing-blue-collar_181624-46402.jpg" alt="Client Testimonial" className="rounded-full w-16 h-16 mx-auto mb-4 bg-cover" />
-                        <p>"The pickup and drop-off service is a lifesaver. My dog is always happy and well cared for."</p>
-                        <p className="text-right font-bold">- Jessica Lee</p>
-                    </div>
-                    <div className="testimonial-card bg-white shadow-md rounded p-4 m-2 w-1/3">
-                        <img src="https://img.freepik.com/free-photo/portrait-happy-dog_53876-94896.jpg" alt="Client Testimonial" className="rounded-full w-16 h-16 mx-auto mb-4" />
-                        <p>"Amazing service! Always on time and my dog loves the rides."</p>
-                        <p className="text-right font-bold">- Michael Brown</p>
-                    </div>
-                </div>
-            </div>
+           <Testimonial/>
 
             {/* Pricing Section */}
             <div className="pricing mt-12">

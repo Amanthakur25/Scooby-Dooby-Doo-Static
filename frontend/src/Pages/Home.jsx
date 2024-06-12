@@ -2,6 +2,8 @@ import React from 'react'
 import AccomationSection from '../Component/Home/AccomationSection'
 import HeroSection from '../Component/Home/HeroSection'
 import Welcome from '../Component/Home/Welcome'
+import Testimonial from '../Component/Home/Testimonial'
+import Blog from './Blog'
 import WhyChooseUs from '../Component/Home/WhyChooseUs'
 import SeprateAccomadations from '../Component/Accomadations/SeprateAccomadations'
 import DeckAccomadations from '../Component/Accomadations/DeckAccomadations'
@@ -12,14 +14,18 @@ import DogPickupNDrop from '../Component/Services/DogPickupNDrop'
 import FriendlyAccommodations from '../Component/Accomadations/FrendlyAccomadations'
 
 
+
 const Home = () => {
   return (
     <div>
+
+    
+   
      <HeroSection/> 
      <Welcome/>
     <AccomationSection/>  
      <WhyChooseUs/>
-   
+  
     </div>
   )
 }

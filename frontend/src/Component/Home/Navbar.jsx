@@ -6,7 +6,7 @@ import { IoMailSharp } from "react-icons/io5";
 
 const Navbar = () => {
     return (
-        <header className="bg-white shadow-md">
+        <header className="bg-white shadow-md  ">
             <div className="container mx-auto flex items-center justify-between p-4">
                 <div className="flex items-center w-1/5">
                 <Link to="/">
@@ -89,7 +89,7 @@ const Navbar = () => {
                                 </div>
                             </li>
                             <li>
-                                <div to="#enquiry" className="block p-2 text-lg hover:border-b-orange-800 text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                <div to="#enquiry" className="block p-2 text-lg cursor-pointer hover:border-b-orange-800 text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
                                     Quick Enquiry
                                 </div>
                             </li>

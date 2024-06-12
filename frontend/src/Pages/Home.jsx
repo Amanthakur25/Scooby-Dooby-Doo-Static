@@ -15,6 +15,8 @@ const Home = () => {
     <AccomationSection/> 
     <Testimonial/>
      <WhyChooseUs/>
+ 
+
   
     </div>
   )

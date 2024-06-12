@@ -17,6 +17,7 @@ import DoggyDayCare from "./Component/Services/DoggyDayCare";
 import DogWalk from "./Component/Services/DogWalk";
 import DogPickupNDrop from "./Component/Services/DogPickupNDrop";
 import Faq from './Pages/Faq';
+import AboutUs from './Pages/AboutUs';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/dogWalk" element={<DogWalk/>} />
           <Route path="/dogPickupNDrop" element={<DogPickupNDrop/>} />
           <Route path="/faq" element={<Faq/>}/>
+          <Route path="/AboutUs" element={<AboutUs/>}/>
          
         </Routes>
         <Footer/>

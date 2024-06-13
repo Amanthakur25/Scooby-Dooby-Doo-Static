@@ -44,176 +44,148 @@ const Navbar = () => {
 
     return (
         <header className="bg-gray-200 shadow-md sticky top-0 z-50">
-        <div className="container mx-auto flex items-center justify-between p-4">
-            <div className="flex items-center w-1/5">
-                <Link to="/">
-                    <img src={Logo} alt="Logo" className="pl-4 h-20" />
-                </Link>
-            </div>
-            <div className="flex flex-col w-4/5">
-                <div className="flex justify-end space-x-4 mb-2 pr-4">
-                    <div className="flex items-center text-gray-700">
-                        <div className="border cursor-pointer border-gray-700 rounded-full p-2 hover:bg-orange-500">
-                            <FaPhoneAlt />
-                        </div>
-                        <span className="ml-2">7702564422</span>
-                    </div>
-                    <div className="flex items-center text-gray-700">
-                        <div className="border cursor-pointer border-gray-700 rounded-full p-2 hover:bg-orange-500">
-                            <IoMailSharp />
-                        </div>
-                        <span className="ml-2">scoobydoobypethouse@gmail.com</span>
-                    </div>
+            <div className="container mx-auto flex items-center justify-between p-4">
+                <div className="flex items-center w-1/5">
+                    <Link to="/">
+                        <img src={Logo} alt="Logo" className="pl-4 h-20" />
+                    </Link>
                 </div>
-                    {/* Desktop Menu */}
+                <div className="flex flex-col w-4/5">
+                    <div className="flex justify-end space-x-4 mb-2 pr-4">
+                        <div className="flex items-center text-gray-700">
+                            <div className="border cursor-pointer border-gray-700 rounded-full p-2 hover:bg-orange-500">
+                                <FaPhoneAlt />
+                            </div>
+                            <span className="ml-2">7702564422</span>
+                        </div>
+                        <div className="flex items-center text-gray-700">
+                            <div className="border cursor-pointer border-gray-700 rounded-full p-2  hover:bg-orange-500">
+                                <IoMailSharp />
+                            </div>
+                            <span className="ml-2">scoobydoobypethouse@gmail.com</span>
+                        </div>
+                    </div>
                     <nav className="bg-gray-200 p-2 rounded-lg">
                         <ul className="flex flex-col md:flex-row md:space-x-4">
                             <li>
-                                <Link to="/" className="block hover:border-orange-800 border-b-2 cursor-pointer p-2 text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative" onClick={scrollToTop}>
+                                <Link to="/" className="block hover:border-orange-800 border-b-2 cursor-pointer p-2 text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/AboutUs" onClick={scrollToTop}>
-                                    <div className="block hover:border-orange-800 border-b-2 p-2 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
-                                        About Us
-                                    </div>
+                                <Link to="/AboutUs" >
+                                <div className="block hover:border-orange-800 border-b-2 p-2 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                    About Us
+                                </div>
                                 </Link>
                             </li>
-                            <li
-                                className={`relative group ${activeMenu === 'Accommodations' ? 'active' : ''}`}
-                                onMouseEnter={() => setActiveMenu('Accommodations')}
-                                onMouseLeave={() => setActiveMenu(null)}
-                            >
-                                <div
-                                    className="block p-2 px-4 hover:border-orange-800 border-b-2 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative"
-                                    onClick={() => setActiveMenu('Accommodations')}
-                                >
+                            <li className="relative group">
+                                <div className="block p-2 hover:border-orange-800 border-b-2 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
                                     Accommodations
                                 </div>
-                                {activeMenu === 'Accommodations' && (
-                                    <ul className="absolute left-0 text-lg text-white bg-black shadow-lg mt-1 rounded w-40">
-                                        <li>
-                                            <Link to="/friendlyAccommodations" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Friendly
-                                                </div>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/seprateAccomadations" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Separate
-                                                </div>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/deckAccomadations" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Deck
-                                                </div>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                )}
+                                <ul className="absolute left-0 hidden text-lg group-hover:block text-white bg-black shadow-lg mt-1 rounded w-40">
+                                    <li>
+                                        <Link to="/friendlyAccommodations">
+                                            <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                                Friendly
+                                            </div>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/seprateAccomadations">
+                                            <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                                Separate
+                                            </div>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/deckAccomadations">
+                                            <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                                Deck
+                                            </div>
+                                        </Link>
+                                    </li>
+                                </ul>
                             </li>
-                            <li
-                                className={`relative group ${activeMenu === 'Services' ? 'active' : ''}`}
-                                onMouseEnter={() => setActiveMenu('Services')}
-                                onMouseLeave={() => setActiveMenu(null)}
-                            >
-                                <div
-                                    className="block hover:border-orange-800 border-b-2 p-2 px-4 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative"
-                                    onClick={() => setActiveMenu('Services')}
-                                >
+                            <li className="relative group">
+                                <div className="block hover:border-orange-800 border-b-2 p-2 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
                                     Services
                                 </div>
-                                {activeMenu === 'Services' && (
-                                    <ul className="absolute left-0 text-lg group-hover:block bg-black shadow-lg mt-1 rounded w-40">
-                                        <li>
-                                            <Link to="/doggyDayCare" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Doggy Day Care Service
-                                                </div>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/dogBoarding" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Boarding
-                                                </div>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/dogWalk" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Dog Walk
-                                                </div>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/dogPickupNDrop" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Dog Pickup/Drop within City
-                                                </div>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                )}
+                                <ul className="absolute left-0 hidden text-lg group-hover:block bg-black shadow-lg mt-1 rounded w-40">
+                                    <li>
+                                        <Link to="/doggyDayCare">
+                                            <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                                Doggy Day Care Service
+                                            </div>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/dogBoarding">
+                                            <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                                Boarding
+                                            </div>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/dogWalk">
+                                            <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                                Dog Walk
+                                            </div>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/dogPickupNDrop">
+                                            <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                                Dog Pickup/Drop within City
+                                            </div>
+                                        </Link>
+                                    </li>
+                                </ul>
                             </li>
-                            <li
-                                className={`relative group ${activeMenu === 'Gallery' ? 'active' : ''}`}
-                                onMouseEnter={() => setActiveMenu('Gallery')}
-                                onMouseLeave={() => setActiveMenu(null)}
-                            >
-                                <div
-                                    className="block hover:border-orange-800 border-b-2 p-2 px-4 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative"
-                                    onClick={() => setActiveMenu('Gallery')}
-                                >
+                            <li className="relative group">
+                                <div className="block hover:border-orange-800 border-b-2 p-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
                                     Gallery
                                 </div>
-                                {activeMenu === 'Gallery' && (
-                                    <ul className="absolute left-0 text-lg group-hover:block bg-black shadow-lg mt-1 rounded w-40">
-                                        <li>
-                                            <Link to="/photo-galary" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Photo Gallery
-                                                </div>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/video-galary" onClick={scrollToTop}>
-                                                <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                    Video Gallery
-                                                </div>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                )}
+                                <ul className="absolute left-0 hidden text-lg group-hover:block bg-black shadow-lg mt-1 rounded w-40">
+                                    <li>
+                                    <Link to="/photo-galary">
+                                        <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                            Photo Gallery
+                                        </div>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                    <Link to="/video-galary">
+                                        <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
+                                            Video Gallery
+                                        </div>
+                                        </Link>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
-                                <Link to="/faq" onClick={scrollToTop}>
-                                    <div className="block p-2 hover:border-orange-800 border-b-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
-                                        FAQ's
-                                    </div>
+                            <Link to="/faq">
+                                <div className="block p-2 hover:border-orange-800 border-b-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                    FAQ's
+                                </div>
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/blogs" onClick={scrollToTop}>
+                                <Link to="/blogs">
                                     <div className="block hover:border-orange-800 border-b-2 p-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
                                         Blogs
                                     </div>
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/contactUs" onClick={scrollToTop}>
+                                <Link to="/contactus">
                                     <div className="block hover:border-orange-800 border-b-2 p-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
                                         Contact
                                     </div>
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/enquiry" onClick={scrollToTop}>
+                                <Link to="/enquiry">
                                     <div className="block hover:border-orange-800 border-b-2 p-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
                                         Quick Enquiry
                                     </div>
@@ -453,6 +425,7 @@ const Navbar = () => {
         </nav>
     </div>
 )}
+
 
             </div>
         </header>

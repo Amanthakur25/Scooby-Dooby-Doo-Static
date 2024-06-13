@@ -1,6 +1,7 @@
 import React from 'react';
 import DogImg from "../../assets/dogimg.webp";
 import DogPawBackground from "../../assets/Untitled design.png";
+import { Link } from 'react-router-dom';
 
 const AccomationSection = () => {
   return (
@@ -20,21 +21,27 @@ const AccomationSection = () => {
             <h3 className="text-2xl text-white font-semibold mb-2">Friendly</h3>
             <hr className="border-gray-300 mb-4" />
             <p className='text-white'>Friendly Accommodations</p>
+            <Link to="/friendlyAccommodations">
             <button className="mt-4 px-4 py-2 bg-white text-orange-600 rounded-lg">Read More</button>
+            </Link>
           </div>
           <div className="bg-transparent p-6 hover:bg-black rounded-lg shadow-lg">
             <img src="https://scoobydoobydoopethouse.com/wp-content/uploads/2024/03/03-1.jpg" alt="Deck" className="w-full h-auto mb-4 rounded-lg" />
             <h3 className="text-2xl text-white font-semibold mb-2">Deck</h3>
             <hr className="border-gray-300 mb-4" />
             <p className='text-white'>Deck Accommodations</p>
+            <Link to="/deckAccomadations">
             <button className="mt-4 px-4 py-2 bg-white text-orange-600 rounded-lg">Read More</button>
+            </Link>
           </div>
           <div className="bg-transparent p-6 hover:bg-black rounded-lg shadow-lg">
             <img src="https://scoobydoobydoopethouse.com/wp-content/uploads/2024/03/02-1.jpg" alt="Separate" className="w-full h-auto mb-4 rounded-lg" />
             <h3 className="text-2xl text-white font-semibold mb-2">Separate</h3>
             <hr className="border-gray-300 mb-4" />
             <p className='text-white'>Separate Accommodations</p>
+            <Link to="/seprateAccomadations">
             <button className="mt-4 px-4 py-2 bg-white text-orange-600 rounded-lg">Read More</button>
+            </Link>
           </div>
         </div>
         

@@ -10,7 +10,7 @@ const DeckAccomadations = () => {
           <div className="text-center text-white">
             <h1 className="text-5xl font-bold mb-4">Deck Accommodations</h1>
             <p className="text-xl mb-6">Find the perfect stay for your dog</p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Explore Now</button>
+            <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Explore Now</button>
           </div>
         </div>
       </div>
@@ -27,9 +27,9 @@ const DeckAccomadations = () => {
             <p className="text-yellow-500 mb-2">Rating: 4.5</p>
             <p className="mb-2">Description of the accommodation.</p>
             <p className="text-green-600 font-bold mb-2">$120/night</p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View Details</button>
+            <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">View Details</button>
           </div>
-          {/* Add more accommodation cards here */}
+          
         </div>
       </div>
 
@@ -46,12 +46,12 @@ const DeckAccomadations = () => {
               <li>Complimentary breakfast</li>
             </ul>
           </div>
-          {/* Add more details cards here */}
+         
         </div>
       </div>
 
       {/* Benefits Section */}
-      <div className="benefits mt-12">
+      <div className="benefits mt-12 mb-12">
         <h2 className="text-3xl font-bold text-center mb-8">Why Choose Dog-Friendly Accommodations</h2>
         <div className="flex flex-wrap justify-around">
           {/* Benefit Cards */}

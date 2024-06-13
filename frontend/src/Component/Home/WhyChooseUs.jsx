@@ -4,6 +4,7 @@ import Dog1 from "../../assets/Dog1Image.webp";
 import Dog2 from "../../assets/Dog2Image.webp";
 import Dog3 from "../../assets/Dog3Image.webp";
 import Dog4 from "../../assets/Dog4Image.webp";
+import { Link } from 'react-router-dom';
 
 const WhyChooseUs = () => {
     return (
@@ -45,7 +46,9 @@ const WhyChooseUs = () => {
                     </div>
                 </div>
                 <div className="relative z-10 p-8 md:pl-20 md:py-20">
+                <Link to="/enquiry">
                     <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full mt-4 transition duration-300 ease-in-out">Make an Enquiry</button>
+                </Link>
                 </div>
             </div>
         </div>

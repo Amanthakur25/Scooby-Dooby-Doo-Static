@@ -18,7 +18,7 @@ const FeaturedAccommodations = () => {
             image: 'https://img.freepik.com/free-vector/dogs-doghouse-made-wood_1308-90854.jpg?t=st=1718187591~exp=1718191191~hmac=8d3e55b43608462e90796bb2503d56e048041bc7b5be17267d82bff2cb859a7d&w=740',
             description: 'Cozy accommodation perfect for solo dog',
             rating: 4,
-            location: 'Suburbs',
+            // location: 'Suburbs',
             price: '$150/night'
         },
         {
@@ -27,7 +27,7 @@ const FeaturedAccommodations = () => {
             image: 'https://img.freepik.com/free-vector/dogs-doghouse-made-wood_1308-90854.jpg?t=st=1718187591~exp=1718191191~hmac=8d3e55b43608462e90796bb2503d56e048041bc7b5be17267d82bff2cb859a7d&w=740',
             description: 'Spacious house ideal for group vacations.',
             rating: 4.8,
-            location: 'Beachfront',
+            // location: 'Beachfront',
             price: '$500/night'
         },
     ]);
@@ -44,7 +44,7 @@ const FeaturedAccommodations = () => {
                         <p className="text-yellow-500 mb-2">Rating: {accommodation.rating}</p>
                         <p className="mb-2">{accommodation.description}</p>
                         <p className="text-green-600 font-bold mb-2">{accommodation.price}</p>
-                        <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View Details</button>
+                        <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">View Details</button>
                     </div>
                 ))}
             </div>
@@ -61,7 +61,7 @@ const FriendlyAccommodations = () => {
                     <div className="text-center text-white">
                         <h1 className="text-5xl font-bold mb-4">Friendly Dog Accommodations</h1>
                         <p className="text-xl mb-6">Find the perfect stay for your furry friend</p>
-                        <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Explore Now</button>
+                        <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Explore Now</button>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@ const FriendlyAccommodations = () => {
             </div>
 
             {/* Benefits Section */}
-            <div className="benefits mt-12">
+            <div className="benefits mt-12 mb-12">
                 <h2 className="text-3xl font-bold text-center mb-8">Why Choose Dog-Friendly Accommodations</h2>
                 <div className="flex flex-wrap justify-around">
                     <div className="benefit-card bg-white shadow-md rounded p-4 m-2 w-1/3 text-center">
@@ -108,7 +108,7 @@ const FriendlyAccommodations = () => {
                         <p>Experience top-notch amenities designed for both you and your dogs.</p>
                     </div>
                     <div className="benefit-card bg-white shadow-md rounded p-4 m-2 w-1/3 text-center">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/park.png" alt="Convenience" className="mx-auto mb-4" />
+                        <img src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="Convenience" className="mx-auto mb-4" />
                         <h3 className="text-xl font-bold mb-2">Convenience</h3>
                         <p>Located near parks and dog-friendly attractions for a delightful stay.</p>
                     </div>

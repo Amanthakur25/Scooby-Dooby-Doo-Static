@@ -3,6 +3,7 @@ import React from "react";
 import { GiDogHouse } from "react-icons/gi";
 import { IoIosArrowForward } from "react-icons/io";
 import { GiSittingDog } from "react-icons/gi";
+import { Link } from "react-router-dom";
 const Welcome = () => {
   return (
     <section className="bg-gray-100 mt-10 mb-5">
@@ -23,9 +24,11 @@ const Welcome = () => {
             offer convenient drop & pick-up times to fit your schedule.
           </p>
           <div class="flex justify-center items-center mt-5">
+          <Link to="/aboutUs">
             <button class="px-6 py-3 flex justify-center items-center bg-white border-2 border-slate-700 text-orange-500 font-semibold rounded-none hover:bg-black hover:text-white transition duration-300 ease-in-out transform hover:scale-105 shadow-xl">
               <span class="mr-2"><IoIosArrowForward /></span>Read More
             </button>
+            </Link>
           </div>
 
 

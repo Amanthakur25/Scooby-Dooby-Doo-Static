@@ -39,7 +39,7 @@ function App() {
           <Route path="/dogWalk" element={<DogWalk/>} />
           <Route path="/dogPickupNDrop" element={<DogPickupNDrop/>} />
           <Route path="/faq" element={<Faq/>}/>
-          <Route path="/AboutUs" element={<AboutUs/>}/>
+          <Route path="/aboutUs" element={<AboutUs/>}/>
          
         </Routes>
         <Footer/>

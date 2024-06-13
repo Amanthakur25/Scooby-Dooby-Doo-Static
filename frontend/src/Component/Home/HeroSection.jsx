@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -25,9 +26,11 @@ const HeroSection = () => {
         <h1 className="text-2xl md:text-5xl lg:text-4xl text-white font-bold mb-4 text-center">
           Luxury Dog Boarding and Daycare Facility
         </h1>
+        <Link to="/aboutUs">
         <button className="px-6 py-3 bg-transparent border-2 border-slate-700 text-white font-semibold rounded-md hover:bg-white hover:text-black h-26 w-60">
           Find Out More
         </button>
+        </Link>
       </div>
     </div>
   );

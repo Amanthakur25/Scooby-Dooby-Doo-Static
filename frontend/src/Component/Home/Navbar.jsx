@@ -44,15 +44,8 @@ const Navbar = () => {
 
     return (
         <header className="bg-gray-200 shadow-md sticky top-0 z-50">
-        <div className="container mx-auto flex items-center justify-between p-4">
-            <div className="flex items-center w-1/5">
-                <Link to="/">
-                    <img src={Logo} alt="Logo" className="pl-4 h-20" />
-                </Link>
-            </div>
-            <div className="flex flex-col w-4/5">
-                <div className="flex justify-end space-x-4 mb-2 pr-4">
-                    <div className="flex items-center text-gray-700">
+            <div className="container mx-auto flex items-center justify-between p-4">
+            <div className="flex items-center text-gray-700">
                         <div className="border cursor-pointer border-gray-700 rounded-full p-2 hover:bg-orange-500">
                             <FaPhoneAlt />
                         </div>
@@ -64,7 +57,12 @@ const Navbar = () => {
                         </div>
                         <span className="ml-2">scoobydoobypethouse@gmail.com</span>
                     </div>
+                <div className="flex items-center w-1/5">
+                    <Link to="/" onClick={scrollToTop}>
+                        <img src={Logo} alt="Logo" className="pl-4 h-20" />
+                    </Link>
                 </div>
+                <div className="hidden md:flex flex-col w-4/5" ref={navRef}>
                     {/* Desktop Menu */}
                     <nav className="bg-gray-200 p-2 rounded-lg">
                         <ul className="flex flex-col md:flex-row md:space-x-4">

@@ -18,11 +18,13 @@ import DogWalk from "./Component/Services/DogWalk";
 import DogPickupNDrop from "./Component/Services/DogPickupNDrop";
 import Faq from './Pages/Faq';
 import AboutUs from './Pages/AboutUs';
+import ScrollTopLink from "./Component/Home/ScrollTopLink";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollTopLink/>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

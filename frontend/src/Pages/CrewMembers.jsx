@@ -27,7 +27,7 @@ const crewMembers = [
     icon: <FaPaw className="text-4xl text-yellow-500" />,
   },
   {
-    name: 'Thomas Rodriguez',
+    name: 'Thomas Adwin',
     position: 'Wellness Supervisor',
     description: 'Thomas ensures that each pet receives the proper diet and exercise regimen to promote their overall well-being. He believes in the importance of a healthy lifestyle for all pets.',
     icon: <FaMedkit className="text-4xl text-green-500" />,

@@ -18,6 +18,7 @@ import DogWalk from "./Component/Services/DogWalk";
 import DogPickupNDrop from "./Component/Services/DogPickupNDrop";
 import Faq from './Pages/Faq';
 import AboutUs from './Pages/AboutUs';
+import ScrollTopLink from "./Component/Home/ScrollTopLink";
 import ScrollTop from './Component/Home/ScrollTop';
 import ParticularBlog from './Component/Blog/ParticularBlog'
 import CrewMembers from './Pages/CrewMembers'
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollTopLink/>
         <Navbar />
         <ScrollTop/>
         <Routes>

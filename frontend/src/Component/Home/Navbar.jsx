@@ -42,6 +42,8 @@ const Navbar = () => {
         };
     });
 
+    const text = "block hover:border-orange-800 border-b-2 cursor-pointer p-2  text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative"
+
     return (
         <header className="bg-gray-200 shadow-md sticky top-0 z-50">
             <div className="container mx-auto flex items-center justify-between p-4">
@@ -51,7 +53,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className="flex flex-col w-4/5">
-                    <div className="flex justify-end space-x-4 mb-2 pr-4">
+                    <div className="flex justify-end gap-x-4 mb-2 pr-4">
                         <div className="flex items-center text-gray-700">
                             <div className="border cursor-pointer border-gray-700 rounded-full p-2 hover:bg-orange-500">
                                 <FaPhoneAlt />
@@ -68,19 +70,19 @@ const Navbar = () => {
                     <nav className="bg-gray-200 p-2 rounded-lg">
                         <ul className="flex flex-col md:flex-row md:space-x-4">
                             <li>
-                                <Link to="/" className="block hover:border-orange-800 border-b-2 cursor-pointer p-2 text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                <Link to="/" className={` ${text}`}>
                                     Home
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/AboutUs" >
-                                <div className="block hover:border-orange-800 border-b-2 p-2 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                <div className={` ${text}`}>
                                     About Us
                                 </div>
                                 </Link>
                             </li>
                             <li className="relative group">
-                                <div className="block p-2 hover:border-orange-800 border-b-2 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                <div className={` ${text}`}>
                                     Accommodations
                                 </div>
                                 <ul className="absolute left-0 hidden text-lg group-hover:block text-white bg-black shadow-lg mt-1 rounded w-40">
@@ -108,7 +110,7 @@ const Navbar = () => {
                                 </ul>
                             </li>
                             <li className="relative group">
-                                <div className="block hover:border-orange-800 border-b-2 p-2 cursor-pointer text-lg text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                <div className={` ${text}`}>
                                     Services
                                 </div>
                                 <ul className="absolute left-0 hidden text-lg group-hover:block bg-black shadow-lg mt-1 rounded w-40">
@@ -143,7 +145,7 @@ const Navbar = () => {
                                 </ul>
                             </li>
                             <li className="relative group">
-                                <div className="block hover:border-orange-800 border-b-2 p-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                <div className={` ${text}`}>
                                     Gallery
                                 </div>
                                 <ul className="absolute left-0 hidden text-lg group-hover:block bg-black shadow-lg mt-1 rounded w-40">
@@ -165,28 +167,28 @@ const Navbar = () => {
                             </li>
                             <li>
                             <Link to="/faq">
-                                <div className="block p-2 hover:border-orange-800 border-b-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                <div className={` ${text}`}>
                                     FAQ's
                                 </div>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/blogs">
-                                    <div className="block hover:border-orange-800 border-b-2 p-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                    <div className={` ${text}`}>
                                         Blogs
                                     </div>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/contactus">
-                                    <div className="block hover:border-orange-800 border-b-2 p-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                    <div className={` ${text}`}>
                                         Contact
                                     </div>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/enquiry">
-                                    <div className="block hover:border-orange-800 border-b-2 p-2 text-lg cursor-pointer text-gray-700 hover:text-orange-800 rounded transition-colors duration-300 relative">
+                                    <div className={` ${text}`}>
                                         Quick Enquiry
                                     </div>
                                 </Link>

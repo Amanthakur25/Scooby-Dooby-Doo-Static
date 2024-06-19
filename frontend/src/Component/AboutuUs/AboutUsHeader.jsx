@@ -16,7 +16,7 @@ function AboutUsHeader() {
           </h1>
         </div>
       </div>
-      {/* <div className="grid grid-cols-2 bg-[#e87200] pt-10 ">
+      <div className="grid grid-cols-2 bg-[#e87200] pt-10 ">
       <div className=' flex justify-center items-center'>
         <img src={dog} alt="Dog" className=" w-[408px] h-[376px]" />
       </div>
@@ -26,7 +26,7 @@ function AboutUsHeader() {
           <button className="mt-4 bg-yellow-500 text-white px-4 py-2 rounded">Explore Our Services</button>
         </div>
       </div>
-        </div> */}
+        </div>
 
       <div className=" flex justify-center items-center text-justify">
         <div className=" py-40">

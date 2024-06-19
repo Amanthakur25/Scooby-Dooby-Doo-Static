@@ -17,7 +17,7 @@ const Testimonial = () => {
       <Link to="/"> Sell All The Google Reviews</Link>
      
       </div>
-      <div  className="flex flex-row gap-10 absolute mt-28">
+      <div  className="flex flex-col min-[900px]:flex-row gap-10 min-[900px]:absolute mt-28">
 
          <div className=" bg-slate-50  rounded-lg shadow-lg p-6 w-96 ">
         <div className="flex flex-row items-center ">

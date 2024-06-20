@@ -27,7 +27,7 @@ const crewMembers = [
     icon: <FaPaw className="text-4xl text-yellow-500" />,
   },
   {
-    name: 'Thomas Rodriguez',
+    name: 'Thomas Adwin',
     position: 'Wellness Supervisor',
     description: 'Thomas ensures that each pet receives the proper diet and exercise regimen to promote their overall well-being. He believes in the importance of a healthy lifestyle for all pets.',
     icon: <FaMedkit className="text-4xl text-green-500" />,
@@ -123,7 +123,7 @@ const CrewMembersPage = () => {
 
         {/* Crew Members Section */}
         <div className="text-center">
-          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-5xl">
             Meet Our Crew
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">

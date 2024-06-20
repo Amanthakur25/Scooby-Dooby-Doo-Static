@@ -67,7 +67,7 @@ const Welcome = () => {
             </button>
           </Link>
         </div>
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+        <div className="flex flex-col lg:flex-row justify-center gap-10 mt-10">
           {[
             {
               icon: <GiDogHouse size={150} className="text-white" />,

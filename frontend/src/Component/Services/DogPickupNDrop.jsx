@@ -14,7 +14,9 @@ const DogPickupNDrop = () => {
                         <p className="text-xl mb-6">
                             At our facility, we understand the importance of ensuring your dog's safe and comfortable travel. <br></br>
                             That’s why we offer a reliable pick-up and drop-off service tailored to your needs.</p>
+                            <Link to="/contactus">
                         <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Book Now</button>
+                    </Link>
                     </div>
                 </div>
             </div>
@@ -93,10 +95,6 @@ const DogPickupNDrop = () => {
                 </div>
             </div>
 
-
-            {/* Testimonials Section */}
-            <Testimonial />
-
             {/* Get a Quote Section */}
             <div className="get-a-quote mt-12 bg-blue-50 py-12 px-4 sm:px-6 lg:px-8 rounded-lg shadow-md">
                 <h2 className="text-4xl font-bold text-center mb-6 text-blue-900">Get a Quote</h2>
@@ -112,6 +110,11 @@ const DogPickupNDrop = () => {
                     </Link>
                 </div>
             </div>
+
+            {/* Testimonials Section */}
+            <Testimonial />
+
+
 
 
         </div>

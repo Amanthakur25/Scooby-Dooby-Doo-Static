@@ -12,7 +12,6 @@ import Blog from "./Pages/Blog";
 import FrendlyAccomadations from "./Component/Accomadations/FrendlyAccomadations";
 import DeckAccomadations from "./Component/Accomadations/DeckAccomadations";
 import SeprateAccomadations from "./Component/Accomadations/SeprateAccomadations";
-import DogBoarding from './Component/Services/DogBoarding';
 import DoggyDayCare from "./Component/Services/DoggyDayCare";
 import DogWalk from "./Component/Services/DogWalk";
 import DogPickupNDrop from "./Component/Services/DogPickupNDrop";
@@ -40,7 +39,6 @@ function App() {
           <Route path="/friendlyAccommodations" element={<FrendlyAccomadations/>} />
           <Route path="/deckAccomadations" element={<DeckAccomadations/>} />
           <Route path="/seprateAccomadations" element={<SeprateAccomadations/>} />
-          <Route path="/dogBoarding" element={<DogBoarding/>} />
           <Route path="/doggyDayCare" element={<DoggyDayCare/>} />
           <Route path="/dogWalk" element={<DogWalk/>} />
           <Route path="/dogPickupNDrop" element={<DogPickupNDrop/>} />

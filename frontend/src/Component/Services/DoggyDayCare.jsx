@@ -5,14 +5,39 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaDog } from 'react-icons/fa';
-
-
+import MeetNGreet from "../../assets/MeetNGreet.jpg"
+import { Link } from 'react-router-dom';
 const DoggyDayCare = () => {
 
-  const dogIllustration = 'https://img.freepik.com/free-vector/beagle-dog-cartoon-white-background_1308-68249.jpg?size=626&ext=jpg&ga=GA1.1.1209051022.1717757913&semt=sph';
+  const dogImages = [
+    'https://via.placeholder.com/150/FFB6C1/000000?text=Dog1',
+    'https://via.placeholder.com/150/FFB6C1/000000?text=Dog2',
+    'https://via.placeholder.com/150/FFB6C1/000000?text=Dog3',
+    'https://via.placeholder.com/150/FFB6C1/000000?text=Dog4',
+    'https://via.placeholder.com/150/FFB6C1/000000?text=Dog5',
+    'https://via.placeholder.com/150/FFB6C1/000000?text=Dog6',
+  ];
+
+
   return (
     <>
-     
+
+     {/* Hero Section */}
+     <div className="hero bg-cover bg-center h-96" style={{ backgroundImage: "url('https://img.freepik.com/free-vector/outdoor-scene-with-cartoon-cats-dogs_1308-98251.jpg?t=st=1718868109~exp=1718871709~hmac=bbe5faff14956400b06f7c44828eb93204431e8800f0b6cf4fbbe0897a6a2401&w=826')" }}>
+                <div className="bg-black bg-opacity-50 h-full flex items-center justify-center">
+                    <div className="text-center text-white">
+                        <h1 className="text-5xl font-bold mb-4">Luxury boarding and daycare</h1>
+                        <p className="text-xl mb-6">
+                        Welcome to Scooby Dooby doo, your premier destination for upscale pet boarding and daycare services.<br></br>
+                        We offer premium pet boarding and flexible daycare solutions to meet your needs.
+                            </p>
+                            <Link to="/contactus">
+                        <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Book Now</button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+
       {/* Scooby Dooby Doo Pet Hotel Section */}
       <div className="max-w-6xl mx-auto p-6">
         <header className="text-center my-12">
@@ -113,76 +138,93 @@ const DoggyDayCare = () => {
       {/* Day Boarding */}
 
       <div className="container mx-auto py-8">
-        <h1 className="text-3xl font-bold text-center mb-8">Doggy Day Care Process</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-black">Doggy Day Care Process</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#2b6cb0', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #2b6cb0' }}
-            iconStyle={{ background: '#2b6cb0', color: '#fff' }}
+            contentStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #FF4500' }}
+            iconStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
             icon={<FaDog />}
           >
-            <h3 className="vertical-timeline-element-title">Meet & Greet Session</h3>
-            <p>Get to know each other</p>
-            <img src={dogIllustration} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" />
+            <h3 className="vertical-timeline-element-title text-black font-bold">Meet & Greet Session</h3>
+            <p className='text-black'>Get to know each other</p>
+            {/* <img src={MeetNGreet} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" /> */}
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#d53f8c', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #d53f8c' }}
-            iconStyle={{ background: '#d53f8c', color: '#fff' }}
+            contentStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #FF4500' }}
+            iconStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
             icon={<FaDog />}
           >
-            <h3 className="vertical-timeline-element-title">Physical Check</h3>
-            <p>A quick physical check of the dog will be conducted during check-in</p>
-            <img src={dogIllustration} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" />
+            <h3 className="vertical-timeline-element-title text-black font-bold">Physical Check</h3>
+            <p className='text-black'>A quick physical check of the dog will be conducted during check-in</p>
+            {/* <img src={MeetNGreet} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" /> */}
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#38a169', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #38a169' }}
-            iconStyle={{ background: '#38a169', color: '#fff' }}
+            contentStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #FF4500' }}
+            iconStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
             icon={<FaDog />}
           >
-            <h3 className="vertical-timeline-element-title">Check-in Form</h3>
-            <p>You will be asked to fill in a check-in form where you can also include any special instructions.</p>
-            <img src={dogIllustration} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" />
+            <h3 className="vertical-timeline-element-title text-black font-bold">Check-in Form</h3>
+            <p className='text-black'>You will be asked to fill in a check-in form where you can also include any special instructions.</p>
+            {/* <img src={MeetNGreet} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" /> */}
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#dd6b20', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #dd6b20' }}
-            iconStyle={{ background: '#dd6b20', color: '#fff' }}
+            contentStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #FF4500' }}
+            iconStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
             icon={<FaDog />}
           >
-            <h3 className="vertical-timeline-element-title">Care Instructions Discussion</h3>
-            <p>Care instructions will be discussed prior making a booking – behavior, allergies, medications etc.</p>
-            <img src={dogIllustration} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" />
+            <h3 className="vertical-timeline-element-title text-black font-bold">Care Instructions Discussion</h3>
+            <p className='text-black'>Care instructions will be discussed prior to making a booking – behavior, allergies, medications, etc.</p>
+            {/* <img src={MeetNGreet} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" /> */}
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#ecc94b', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #ecc94b' }}
-            iconStyle={{ background: '#ecc94b', color: '#fff' }}
+            contentStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #FF4500' }}
+            iconStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
             icon={<FaDog />}
           >
-            <h3 className="vertical-timeline-element-title">Dog is Taken In</h3>
-            <p>The dog is then taken in</p>
-            <img src={dogIllustration} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" />
+            <h3 className="vertical-timeline-element-title text-black font-bold">Dog is Taken In</h3>
+            <p className='text-black'>The dog is then taken in</p>
+            {/* <img src={MeetNGreet} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" /> */}
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#48bb78', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #48bb78' }}
-            iconStyle={{ background: '#48bb78', color: '#fff' }}
+            contentStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #FF4500' }}
+            iconStyle={{ background: 'linear-gradient(135deg, #FF8C00, #FF4500)', color: '#fff' }}
             icon={<FaDog />}
           >
-            <h3 className="vertical-timeline-element-title">Grooming Services</h3>
-            <p>On the date of check-out, if you require any Grooming services, let us know in advance so that we can schedule it according to the availability. The same will be done prior to the check-out time indicated by you.</p>
-            <img src={dogIllustration} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" />
+            <h3 className="vertical-timeline-element-title text-black font-bold">Grooming Services</h3>
+            <p className='text-black'>On the date of check-out, if you require any grooming services, let us know in advance so that we can schedule it according to the availability. The same will be done prior to the check-out time indicated by you.</p>
+            {/* <img src={MeetNGreet} alt="Dog Illustration" className="w-24 h-24 mx-auto mt-4" /> */}
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
+
+      {/* Day Care and Boarding Quote Section */}
+      <div className="get-a-quote mt-5 bg-green-50 py-12 px-4 sm:px-6 lg:px-8 rounded-lg shadow-md">
+        <h2 className="text-4xl font-bold text-center mb-6 text-green-900">Get a Quote</h2>
+        <p className="text-center mb-4 text-lg text-gray-700">
+          The cost of our day care and boarding services varies based on your pet's needs and length of stay. To receive a personalized quote, please reach out to us with your requirements and preferred dates.
+        </p>
+        <p className="text-center mb-8 text-lg text-gray-700">
+          Contact us today to ensure a comfortable and enjoyable stay for your furry friend!
+        </p>
+        <div className="flex justify-center">
+          <Link to="/contactus" className="bg-orange-600 text-white py-3 px-6 rounded-full hover:bg-orange-700 transition duration-300">
+            Contact Us
+          </Link>
+        </div>
+      </div>
+
 
 
 

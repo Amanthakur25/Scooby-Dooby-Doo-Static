@@ -1,9 +1,9 @@
 import React from 'react';
 import DogPaw from "../../assets/PawImage.png";
-import Dog1 from "../../assets/Dog1Image.webp";
-import Dog2 from "../../assets/Dog2Image.webp";
-import Dog3 from "../../assets/Dog3Image.webp";
-import Dog4 from "../../assets/Dog4Image.webp";
+import Dog1 from "../../assets/PhotoGallery/Dog1.jpg";
+import Dog2 from "../../assets/PhotoGallery/Dog2.jpg";
+import Dog3 from "../../assets/PhotoGallery/Dog3.jpg";
+import Dog4 from "../../assets/PhotoGallery/Dog4.jpg";
 import { Link } from 'react-router-dom';
 
 const WhyChooseUs = () => {

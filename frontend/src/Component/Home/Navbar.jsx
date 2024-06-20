@@ -115,17 +115,11 @@ const Navbar = () => {
                                     <li>
                                         <Link to="/doggyDayCare">
                                             <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                Doggy Day Care Service
+                                                Doggy Day Care and Boarding
                                             </div>
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link to="/dogBoarding">
-                                            <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
-                                                Boarding
-                                            </div>
-                                        </Link>
-                                    </li>
+                                    
                                     <li>
                                         <Link to="/dogWalk">
                                             <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">

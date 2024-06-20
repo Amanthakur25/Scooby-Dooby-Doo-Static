@@ -1,6 +1,7 @@
 import React from 'react';
 import Testimonial from '../Home/Testimonial';
 import { GiDistressSignal } from "react-icons/gi";
+import { Link } from 'react-router-dom';
 
 const DogWalk = () => {
     return (
@@ -11,7 +12,9 @@ const DogWalk = () => {
                     <div className="text-center text-white">
                         <h1 className="text-5xl font-bold mb-4">Professional Dog Walking Services</h1>
                         <p className="text-xl mb-6">Ensuring your dog gets the exercise and attention they need</p>
-                        <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule a Walk</button>
+                        <Link to="/contactus">
+                        <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Schedule a Walk</button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -59,10 +62,27 @@ const DogWalk = () => {
                         <p>Group walks help your dog make new friends.</p>
                     </div>
                     <div className="benefit-card bg-gray-100 rounded p-4 m-2 w-1/3 text-center">
-                      <GiDistressSignal  className="mx-auto mb-4 h-16 w-16" />
+                        <GiDistressSignal className="mx-auto mb-4 h-16 w-16" />
                         <h3 className="text-xl font-bold mb-2">Stress Relief</h3>
                         <p>Walking helps reduce anxiety and stress in dogs.</p>
                     </div>
+                </div>
+            </div>
+
+            {/* Get a Quote Section */}
+            <div className="get-a-quote mt-12 bg-blue-50 py-12 px-4 sm:px-6 lg:px-8 rounded-lg shadow-md">
+                <h2 className="text-4xl font-bold text-center mb-6 text-blue-900">Get a Quote</h2>
+                <p className="text-center mb-4 text-lg text-gray-700">
+                    The cost of our dog walking service varies. To receive a personalized quote, please reach out to us with your address and preferred dates.
+                </p>
+                <p className="text-center mb-8 text-lg text-gray-700">
+
+                    Contact us today to ensure your furry friend enjoys a fun and safe walk!
+                </p>
+                <div className="flex justify-center">
+                    <Link to="/contactus" className="bg-orange-600 text-white py-3 px-6 rounded-full hover:bg-orange-700 transition duration-300">
+                        Contact Us
+                    </Link>
                 </div>
             </div>
 

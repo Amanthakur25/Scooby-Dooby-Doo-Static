@@ -2,15 +2,23 @@ import React from 'react';
 import { FaTruckPickup } from "react-icons/fa";
 import Testimonial from '../Home/Testimonial';
 import { Link } from 'react-router-dom';
-
+import pd1 from "../../assets/pd1.jpg"
 const DogPickupNDrop = () => {
     return (
         <div className="container mx-auto p-8">
             {/* Hero Section */}
-            <div className="hero bg-cover bg-center h-96" style={{ backgroundImage: "url('https://img.freepik.com/free-vector/two-dogs-driving-red-car_1308-134954.jpg?t=st=1718175544~exp=1718179144~hmac=c940528dfad15eb6b3e9a37a083ca500d556e97a44e1c90554c505523cc27a88&w=1380')" }}>
-                <div className="bg-black bg-opacity-50 h-full flex items-center justify-center">
-                    <div className="text-center text-white">
-                        <h1 className="text-5xl font-bold mb-4">Dog Pickup & Drop-Off Service</h1>
+            <div className="relative w-full">
+        <img
+          src={pd1}
+          alt="header"
+          className="w-full object-cover h-[550px]"
+        />
+        <div className="absolute  flex-col top-0 left-0 w-full h-full flex items-center">
+          
+        </div>
+      </div>
+            <div className="text-center py-20">
+                        <h1 className="text-5xl font-bold text-[#e87200] mb-4 font-gochi-hand">Dog Pickup & Drop-Off Service</h1>
                         <p className="text-xl mb-6">
                             At our facility, we understand the importance of ensuring your dog's safe and comfortable travel. <br></br>
                             That’s why we offer a reliable pick-up and drop-off service tailored to your needs.</p>
@@ -18,9 +26,6 @@ const DogPickupNDrop = () => {
                         <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Book Now</button>
                     </Link>
                     </div>
-                </div>
-            </div>
-
             {/* How It Works Section */}
             <div className="how-it-works mt-12 bg-gray-50 py-8">
                 <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">How It Works</h2>
@@ -110,6 +115,7 @@ const DogPickupNDrop = () => {
                     </Link>
                 </div>
             </div>
+
 
             {/* Testimonials Section */}
             <Testimonial />

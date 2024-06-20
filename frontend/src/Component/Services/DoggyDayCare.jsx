@@ -7,6 +7,11 @@ import 'react-vertical-timeline-component/style.min.css';
 import { FaDog } from 'react-icons/fa';
 import MeetNGreet from "../../assets/MeetNGreet.jpg"
 import { Link } from 'react-router-dom';
+import daycare1 from "../../assets/daycare1.jpg"
+import daycare2 from "../../assets/daycare2.jpg"
+import daycare3 from "../../assets/daycare3.jpg"
+import lux1 from "../../assets/lux1.jpg"
+import lux2 from "../../assets/lux2.jpg"
 const DoggyDayCare = () => {
 
   const dogImages = [
@@ -23,20 +28,24 @@ const DoggyDayCare = () => {
     <>
 
      {/* Hero Section */}
-     <div className="hero bg-cover bg-center h-96" style={{ backgroundImage: "url('https://img.freepik.com/free-vector/outdoor-scene-with-cartoon-cats-dogs_1308-98251.jpg?t=st=1718868109~exp=1718871709~hmac=bbe5faff14956400b06f7c44828eb93204431e8800f0b6cf4fbbe0897a6a2401&w=826')" }}>
-                <div className="bg-black bg-opacity-50 h-full flex items-center justify-center">
-                    <div className="text-center text-white">
-                        <h1 className="text-5xl font-bold mb-4">Luxury boarding and daycare</h1>
-                        <p className="text-xl mb-6">
-                        Welcome to Scooby Dooby doo, your premier destination for upscale pet boarding and daycare services.<br></br>
-                        We offer premium pet boarding and flexible daycare solutions to meet your needs.
-                            </p>
-                            <Link to="/contactus">
-                        <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Book Now</button>
-                        </Link>
-                    </div>
-                </div>
-            </div>
+     <div className="relative w-full flex">
+        <img
+          src={daycare1}
+          alt="header"
+          className=" object-cover h-[550px]"
+        />
+        <img
+          src={daycare2}
+          alt="header"
+          className=" object-cover h-[550px]"
+        />
+        <img
+          src={daycare3}
+          alt="header"
+          className=" object-cover h-[550px]"
+        />
+        
+      </div>
 
       {/* Scooby Dooby Doo Pet Hotel Section */}
       <div className="max-w-6xl mx-auto p-6">
@@ -46,93 +55,6 @@ const DoggyDayCare = () => {
             Your premier destination for upscale pet boarding and daycare services.
           </p>
         </header>
-
-        <section className="my-16">
-          <h2 className="text-3xl font-semibold text-orange-700 mb-8">Our Accommodations Include:</h2>
-          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <li className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-semibold text-gray-800">Home-Cooked Meals</h3>
-              <p className="text-gray-600 mt-4">
-                Your pet will enjoy delicious and nutritious home-cooked meals such as chicken, rice, liver, curd, milk, chapati, and eggs. Have a special request? We’re happy to accommodate any other home-cooked meals your pet prefers.
-              </p>
-              <blockquote className="mt-4 bg-blue-100 border-l-4 border-orange-500 text-blue-900 p-4 shadow-md rounded">
-                “Our meals are designed to make your pet feel at home.”
-              </blockquote>
-            </li>
-
-            <li className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-semibold text-gray-800">Custom Feeding Plans</h3>
-              <p className="text-gray-600 mt-4">
-                For dogs accustomed to dedicated pet food, please pack their meals according to their schedule, and we’ll take care of the rest.
-              </p>
-            </li>
-
-            <li className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-semibold text-gray-800">Comfortable Essentials</h3>
-              <p className="text-gray-600 mt-4">
-                Each pet will have their own bowls, treats, toys, and a comfortable bed to ensure they feel safe and secure.
-              </p>
-              <blockquote className="mt-4 bg-blue-100 border-l-4 border-orange-500 text-blue-900 p-4 shadow-md rounded">
-                “Comfort is our priority, and we provide everything to make your pet’s stay cozy and enjoyable.”
-              </blockquote>
-            </li>
-          </ul>
-        </section>
-
-        <section className="my-16">
-          <h2 className="text-3xl font-semibold text-orange-700 mb-8">Individual Attention and Care:</h2>
-          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <li className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-semibold text-gray-800">Personalised Feeding</h3>
-              <p className="text-gray-600 mt-4">
-                We feed each pet individually to cater to their specific dietary needs and preferences.
-              </p>
-            </li>
-
-            <li className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-semibold text-gray-800">One-on-One Walks</h3>
-              <p className="text-gray-600 mt-4">
-                Every dog enjoys individual walks, ensuring they get the exercise and attention they need.
-              </p>
-            </li>
-
-            <li className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-semibold text-gray-800">Basic Grooming</h3>
-              <p className="text-gray-600 mt-4">
-                Our grooming services include cleaning eyes, ears, dry bath and combing hair, keeping your pet looking and feeling their best.
-              </p>
-              <blockquote className="mt-4 bg-blue-100 border-l-4 border-orange-500 text-blue-900 p-4 shadow-md rounded">
-                “A clean pet is a happy pet, and our grooming services keep them fresh and tidy.”
-              </blockquote>
-            </li>
-
-            <li className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-semibold text-gray-800">Daily Video Updates</h3>
-              <p className="text-gray-600 mt-4">
-                Request a daily video to see how your pet is doing, providing peace of mind while you’re away (11:00am - 6:00 pm).
-              </p>
-            </li>
-
-            <li className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-semibold text-gray-800">Chat Support</h3>
-              <p className="text-gray-600 mt-4">
-                Stay updated on your pet’s well-being with our chat support available from 11:00 am to 6:00 pm.
-              </p>
-            </li>
-          </ul>
-        </section>
-
-        <section className="my-16">
-          <h2 className="text-3xl font-semibold text-orange-700 mb-8">Special Benefits for Extended Stays:</h2>
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-            <p className="text-gray-600">
-              Planning to book for more than 15 days? Enjoy complimentary services and receive exclusive discounted coupons as a token of our appreciation.
-            </p>
-            <blockquote className="mt-4 bg-blue-100 border-l-4 border-orange-500 text-blue-900 p-4 shadow-md rounded">
-              “Extended stays come with special perks to make your pet’s time with us even more delightful.”
-            </blockquote>
-          </div>
-        </section>
       </div>
 
       {/* Day Boarding */}
@@ -209,22 +131,65 @@ const DoggyDayCare = () => {
         </VerticalTimeline>
       </div>
 
-      {/* Day Care and Boarding Quote Section */}
-      <div className="get-a-quote mt-5 bg-green-50 py-12 px-4 sm:px-6 lg:px-8 rounded-lg shadow-md">
-        <h2 className="text-4xl font-bold text-center mb-6 text-green-900">Get a Quote</h2>
-        <p className="text-center mb-4 text-lg text-gray-700">
-          The cost of our day care and boarding services varies based on your pet's needs and length of stay. To receive a personalized quote, please reach out to us with your requirements and preferred dates.
-        </p>
-        <p className="text-center mb-8 text-lg text-gray-700">
-          Contact us today to ensure a comfortable and enjoyable stay for your furry friend!
-        </p>
-        <div className="flex justify-center">
-          <Link to="/contactus" className="bg-orange-600 text-white py-3 px-6 rounded-full hover:bg-orange-700 transition duration-300">
-            Contact Us
-          </Link>
-        </div>
+      <div className=' flex flex-col justify-center items-center py-32'>
+          <p className=' w-[60%] text-[20px] text-center font-semibold'>
+          "We offer premium pet boarding and flexible daycare solutions to meet your needs.
+At Scooby Dooby Doo, we redefine pet care with our <span className=' font-bold text-[21px]'>24/7 boarding</span> options designed to accommodate both short-term getaways and extended stays lasting months."
+
+          
+          </p>
+          
       </div>
 
+      <div className=" grid grid-cols-2  justify-center items-center pb-20">
+        <div className=" px-10 flex flex-col justify-end items-end">
+          <h1 className=' text-[35px] text-[#e87200] font-semibold  w-[65%]'> Luxury boarding</h1>
+          
+          <p className=' text-[20px] w-[65%] '>
+          Our luxurious accommodations ensure that your furry family members experience comfort, security, and personalized attention around the clock. Whether you’re off on a vacation or handling a long-term commitment, rest assured knowing your pet is in caring hands.
+
+          </p>
+          
+          
+        </div>
+
+        <div className='flex justify-start items-start'>
+          <img src={lux1} alt="dogstay" loading="lazy" className=" w-[55%]" />
+        </div>
+
+      </div>
+
+      <div className=" grid grid-cols-2  justify-center items-center pb-20">
+      <div className='flex justify-end items-end'>
+          <img src={lux2} alt="dogstay" loading="lazy" className=" w-[55%]" />
+        </div>
+        <div className=" px-10 flex flex-col justify-start items-start">
+          <h1 className=' text-[35px] text-[#e87200] font-semibold  w-[65%]'> Daycare Service</h1>
+          
+          <p className=' text-[20px] w-[65%] '>
+          For those needing flexible daytime care, our hourly daycare service is the perfect solution. Tailored to meet the needs of working pet parents or those with busy schedules, our daycare offers a stimulating environment where dogs can socialize, exercise, and receive top-notch care while you handle your responsibilities.
+Whether it’s for a few hours or several months, we’re here to provide your pet with a safe, nurturing environment they’ll love.
+
+          </p>
+          
+          
+        </div>
+
+        
+
+        
+
+      </div>
+
+      <div className=' flex flex-col justify-center items-center py-32'>
+        <p className=' text-gray-800 w-[60%] text-[20px] text-center font-bold'>
+        Contact us to learn more about our boarding and daycare services and discover why we’re more than just a place for pets—we’re a home away from home.
+
+          </p>
+          <Link to="/contactUs">
+          <button className=" my-5 bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Contact Us</button>
+          </Link>
+        </div>
 
 
 

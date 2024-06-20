@@ -48,12 +48,12 @@ const AccomationSection = () => {
             </Link>
           </div>
         </div>
-        
+        <a href="tel:7702564422">
         <button className=" p-4 border-2 bg-white text-orange-600 rounded-lg transition duration-500 ease-in-out hover:-translate-y-1 hover:text-white hover:scale-110 hover:bg-slate-900 ">
           Call Us @7702564422
         </button> 
      
-
+</a>
       </div>
 
      

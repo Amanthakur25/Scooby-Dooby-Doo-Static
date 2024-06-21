@@ -61,13 +61,13 @@ const Navbar = () => {
                             <span className="ml-2">7702564422</span>
                         </div>
                         <div className="flex items-center text-gray-700">
-    <a href="mailto:scoobydoobypethouse@gmail.com" className="border cursor-pointer border-gray-700 rounded-full p-2 hover:bg-orange-500">
-        <IoMailSharp />
-    </a>
-    <a href="mailto:scoobydoobypethouse@gmail.com" className="ml-2 text-gray-700">
-        scoobydoobypethouse@gmail.com
-    </a>
-</div>
+                            <a href="mailto:scoobydoobypethouse@gmail.com" className="border cursor-pointer border-gray-700 rounded-full p-2 hover:bg-orange-500">
+                                <IoMailSharp />
+                            </a>
+                            <a href="mailto:scoobydoobypethouse@gmail.com" className="ml-2 text-gray-700">
+                                scoobydoobypethouse@gmail.com
+                            </a>
+                        </div>
 
                     </div>
                     <nav className="bg-gray-200 p-2 rounded-lg">
@@ -99,7 +99,7 @@ const Navbar = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/separateAccommodations">
+                                        <Link to="/seprateAccomadations">
                                             <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
                                                 Separate
                                             </div>
@@ -126,7 +126,7 @@ const Navbar = () => {
                                             </div>
                                         </Link>
                                     </li>
-                                    
+
                                     <li>
                                         <Link to="/dogWalk">
                                             <div className="block p-2 cursor-pointer text-lg text-white hover:text-orange-800 hover:bg-white rounded">
@@ -251,9 +251,8 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <div
-                                        className={`block p-2 px-4 text-lg text-gray-700 cursor-pointer hover:text-orange-800 ${
-                                            activeMenu === 'Accommodations' ? 'text-orange-800' : ''
-                                        }`}
+                                        className={`block p-2 px-4 text-lg text-gray-700 cursor-pointer hover:text-orange-800 ${activeMenu === 'Accommodations' ? 'text-orange-800' : ''
+                                            }`}
                                         onClick={() => {
                                             setActiveMenu(activeMenu === 'Accommodations' ? null : 'Accommodations');
                                         }}
@@ -303,9 +302,8 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <div
-                                        className={`block p-2 px-4 text-lg text-gray-700 cursor-pointer hover:text-orange-800 ${
-                                            activeMenu === 'Services' ? 'text-orange-800' : ''
-                                        }`}
+                                        className={`block p-2 px-4 text-lg text-gray-700 cursor-pointer hover:text-orange-800 ${activeMenu === 'Services' ? 'text-orange-800' : ''
+                                            }`}
                                         onClick={() => {
                                             setActiveMenu(activeMenu === 'Services' ? null : 'Services');
                                         }}
@@ -358,9 +356,8 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <div
-                                        className={`block p-2 px-4 text-lg text-gray-700 cursor-pointer hover:text-orange-800 ${
-                                            activeMenu === 'Gallery' ? 'text-orange-800' : ''
-                                        }`}
+                                        className={`block p-2 px-4 text-lg text-gray-700 cursor-pointer hover:text-orange-800 ${activeMenu === 'Gallery' ? 'text-orange-800' : ''
+                                            }`}
                                         onClick={() => {
                                             setActiveMenu(activeMenu === 'Gallery' ? null : 'Gallery');
                                         }}

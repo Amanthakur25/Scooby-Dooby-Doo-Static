@@ -1,10 +1,14 @@
 import React from 'react';
 import DayCareImage from '../../assets/PhotoGallery/Dog2.jpg';
-import BoardingImage from '../../assets/PhotoGallery/Dog3.jpg';
-import DogWalkImage from '../../assets/PhotoGallery/Dog4.jpg';
+import {PhotoGallery} from '../../constants/imageConstant';
+import {PhotoGallery} from '../../constants/imageConstant';
 import DogPickupNDropImage from '../../assets/PhotoGallery/Dog5.png';
-import OtherImage from '../../assets/PhotoGallery/Dog1.jpg';
 
+
+
+ const BoardingImage=PhotoGallery.Dog3;
+ const DogWalkImage=PhotoGallery.Dog4;
+ const OtherImage=PhotoGallery.Dog1;
 function ServicesCards() {
     const arr = [
         {

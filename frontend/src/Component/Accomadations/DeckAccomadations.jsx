@@ -20,23 +20,12 @@ function DeckAccomadations() {
           </div>
         </div>
 
-      <div className=" flex justify-center items-center text-justify">
-        <div className="pt-20 pb-32">
-        <h1 className=" text-[60px] text-center text-[#e87200] font-bold mt-14 font-gochi-hand text-shadowText">
-          Deck Accommodation
-          </h1>
-          
-        </div>      
-      </div>
         <div className=" flex justify-center items-center text-justify">
           <div className="pt-20 pb-32">
             <h1 className=" text-[60px] text-center text-[#e87200] font-bold mt-14 font-gochi-hand text-shadowText">
               Deck Accommodation
             </h1>
-            <p className=" text-center text-[20px] font-bold">
-              Welcome to <span className='text-[#e87200] text-[23px]'>Scooby Dooby Doo Pet Hotel</span>, <br />
-              where we offer a range of accommodations designed to cater to every pet’s unique personality and needs.
-            </p>
+           
           </div>
         </div>
 
@@ -52,8 +41,7 @@ function DeckAccomadations() {
           </div>
         </div>
 
-      </div>
-      
+       
 
         <div className='flex flex-col justify-center items-center py-32'>
           <p className='w-[60%] text-[20px] text-center font-semibold'>

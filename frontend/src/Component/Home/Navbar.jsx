@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Logo from "../../assets/logo.svg";
+import {logo} from "../../constants/imageConstant";
 import { Link } from 'react-router-dom';
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMailSharp } from "react-icons/io5";
@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className="container mx-auto flex items-center justify-between p-4">
                 <div className="flex items-center w-1/5">
                     <Link to="/">
-                        <img src={Logo} alt="Logo" className="pl-4 h-20" />
+                        <img src={logo} alt="Logo" className="pl-4 h-20" />
                     </Link>
                 </div>
                 <div className="flex flex-col w-4/5">

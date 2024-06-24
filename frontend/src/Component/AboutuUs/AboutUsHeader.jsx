@@ -1,6 +1,7 @@
 import React from "react";
 
-import BgAboutUs from "../../assets/BgAboutUs.webp";
+import {BgAboutUs} from "../../constants/imageConstant";
+
 
 
 function AboutUsHeader() {

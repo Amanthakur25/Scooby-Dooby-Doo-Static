@@ -1,11 +1,6 @@
 import React from "react";
-// import dogFood from "../../assets/accfood.png";
-// import dogWalk from "../../assets/dogFoodPlan.jpg";
-import accdogcom from "../../assets/accdogcom.png";
-// import doggroom from "../../assets/doggroom.jpg"
-// import dogvedio from '../../assets/dogvedio.jpg'
-// import dogchat from "../../assets/dogchat.jpg";
-import dogstay from "../../assets/dogstay.png"
+import {accdogcom} from "../../constants/imageConstant";
+import {dagstay} from "../../constants/imageConstant"
 import { PiBowlFoodDuotone } from "react-icons/pi";
 import { MdFoodBank } from "react-icons/md";
 import { GiRolledCloth } from "react-icons/gi";
@@ -27,6 +22,7 @@ function ServicesCards() {
   const arr2 = [
     {
       name: "Personalised Feeding",
+      img: "https://img.freepik.com/free-vector/everyday-scenes-with-pets_23-2148535788.jpg?t=st=1718967762~exp=1718971362~hmac=28084ceba3abc390c77b9ba035cd36df419b77621b3183f76c7ba486747fad1f&w=740",
       img: "https://img.freepik.com/free-vector/everyday-scenes-with-pets_23-2148535788.jpg?t=st=1718967762~exp=1718971362~hmac=28084ceba3abc390c77b9ba035cd36df419b77621b3183f76c7ba486747fad1f&w=740",
       des:"We feed each pet individually to cater to their specific dietary needs and preferences."
     },
@@ -176,7 +172,7 @@ function ServicesCards() {
         </div>
 
         <div>
-          <img src={dogstay} alt="dogstay" loading="lazy" className=" w-52 h-72" />
+          <img src={dagstay} alt="dogstay" loading="lazy" className=" w-52 h-72" />
         </div>
 
       </div>

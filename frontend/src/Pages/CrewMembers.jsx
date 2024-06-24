@@ -64,7 +64,7 @@ const CrewMembersPage = () => {
 
         <div className="flex flex-col gap-y-20 mb-10">
           <div className="flex justify-center items-center">
-            <div className="pl-2 flex justify-end items-end bg-[#e87200]">
+            <div className="pl-2 flex justify-end  items-end bg-[#e87200]">
               <img
                 src="https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/suuz1ttsy8mfohmf3jn4"
                 alt="team"

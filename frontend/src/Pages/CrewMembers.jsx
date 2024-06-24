@@ -71,7 +71,7 @@ const CrewMembersPage = () => {
                 className="w-[300px]"
               />
             </div>
-            <div className="gap-y-1 md:gap-y-5 w-[50%] bg-[#e87200] p-5 text-sm">
+            <div className="gap-y-1 md:gap-y-5 w-[50%]  bg-[#e87200] p-5 text-sm">
               <p>
                 <span className="text-bold text-3xl text-white">Priya Raghuvanshi</span>, who
                 has an MBA degree, is the creator of the cage-free dog boarding

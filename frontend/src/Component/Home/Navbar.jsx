@@ -131,7 +131,7 @@ const Navbar = () => {
                     <div className="flex  gap-x-4 mb-2 pr-4 max-xl:w-full">
                     <div className="flex xl:hidden  w-1/5">
                             <Link to="/">
-                                <img src={Logo} alt="Logo" className="pl-4 h-20" />
+                                <img src={logo} alt="Logo" className="pl-4 h-20" />
                             </Link>
                         </div>
                         <span className=' flex justify-end w-full gap-x-4 mb-2 pr-4'>

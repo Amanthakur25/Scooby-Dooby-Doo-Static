@@ -1,8 +1,10 @@
 import React from 'react'
-import fa1 from "../../assets/fa1.jpg"
-import fa2 from "../../assets/fa2.jpg"
 import BenefitComp from './BenefitComp'
 import { Link } from 'react-router-dom'
+import { Accomadation } from '../../constants/imageConstant' // Importing the named export
+
+const fa1 = Accomadation.Frendly;
+const fa2 = Accomadation.Frendly;
 function FrendlyAccomadations() {
   return (
     <div>
@@ -22,10 +24,7 @@ function FrendlyAccomadations() {
         <h1 className=" text-[60px] text-center text-[#e87200] font-bold mt-14 font-gochi-hand text-shadowText">
           Friendly Accommodation
           </h1>
-          <p className=" text-center text-[20px] font-bold">
-         Welcome to <span className='text-[#e87200] text-[23px]'>Scooby Dooby Doo Pet Hotel</span>, <br/>
-         where we offer a range of accommodations designed to cater to every pet’s unique personality and needs.
-          </p>
+         
         </div>      
       </div>
 

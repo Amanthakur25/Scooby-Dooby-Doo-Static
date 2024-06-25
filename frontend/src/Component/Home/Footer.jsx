@@ -2,7 +2,7 @@ import React from 'react';
 import { FaPhone, FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { AiFillFacebook, AiFillYoutube, AiFillInstagram } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
-import Logo from "../../assets/logo.svg";
+import {logo} from "../../constants/imageConstant";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="container mx-auto flex flex-col lg:flex-row items-center md:justify-between py-6">
           <div className="flex flex-col md:flex-row items-center mb-4 md:mb-0 w-full md:w-auto">
 
-            <img src={Logo} alt="Your Logo" className="md:ml-16 w-32 h-auto text-white md:mr-32" style={{ filter: 'invert(1)' }} />
+            <img src={logo} alt="Your Logo" className="md:ml-16 w-32 h-auto text-white md:mr-32" style={{ filter: 'invert(1)' }} />
             <div className="mt-6 md:mt-0 text-center md:text-left">
               <h3 className="text-xl font-bold hover:text-orange-400 cursor-pointer">Quick Contact</h3>
               <a href="tel:7702564422">

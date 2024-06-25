@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Logo from "../../assets/logo.svg";
+import {logo} from "../../constants/imageConstant";
 import { Link } from 'react-router-dom';
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMailSharp, IoMenu, IoClose } from "react-icons/io5";
@@ -119,7 +119,7 @@ const Navbar = () => {
             <div className="lg:container mx-auto flex items-center justify-between p-4">
                 <div className="flex min-[950px]:hidden xl:flex items-center w-1/5">
                     <Link to="/">
-                        <img src={Logo} alt="Logo" className="pl-4 h-20" />
+                        <img src={logo} alt="Logo" className="pl-4 h-20" />
                     </Link>
                 </div>
                 <div className="min-[950px]:hidden flex items-center">
@@ -131,7 +131,7 @@ const Navbar = () => {
                     <div className="flex  gap-x-4 mb-2 pr-4 max-xl:w-full">
                     <div className="flex xl:hidden  w-1/5">
                             <Link to="/">
-                                <img src={Logo} alt="Logo" className="pl-4 h-20" />
+                                <img src={logo} alt="Logo" className="pl-4 h-20" />
                             </Link>
                         </div>
                         <span className=' flex justify-end w-full gap-x-4 mb-2 pr-4'>

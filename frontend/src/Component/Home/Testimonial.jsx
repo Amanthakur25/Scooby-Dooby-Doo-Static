@@ -22,11 +22,11 @@ const Testimonial = () => {
          <div className=" bg-slate-50  rounded-lg shadow-lg p-6 w-96 ">
         <div className="flex flex-row items-center ">
           <div className="logo text-black mb-40 mr-4">
-            <img src="https://lh3.googleusercontent.com/a/ACg8ocItqWemofFZb4PA58uAJdux5aEXjtftJC27kuYdU2jMTnsS0Q=w45-h45-p-rp-mo-br100" alt="" className=" h-12 w-32" />
+            <img src="https://lh3.googleusercontent.com/a-/ALV-UjUJsgAYV6LIP-vfDM4_Fv2EM-ivpbqQ4jE8tVG5GYoBRA2Ik7Y=w75-h75-p-rp-mo-br100" alt="" className=" h-12 w-32" />
           </div>
           <div className="text-wrap  text-justify">
             <p>
-            This dog boarding house deserves nothing short of five stars! From the moment you step in, it's evident that the staff is dedicated to providing exceptional care for our furry friends. <a  href="https://maps.app.goo.gl/aK64Q6m32dStutVV7"> <div className=" text-blue-400 hover:text-blue-600 cursor-pointer hover:underline ">
+            Have opted walking service for my baby, Rio (Shihtzu) and he absolutely loving Hallahan (Walker) ,very much experienced and professional in handling and caring Rio (mine is little spoiled and having so much of tantrums). <a  href="https://maps.app.goo.gl/keh8HU8XANkq1fPq6"> <div className=" text-blue-400 hover:text-blue-600 cursor-pointer hover:underline ">
               
               Read more 
             </div>
@@ -48,12 +48,12 @@ const Testimonial = () => {
       <div className=" bg-slate-50 rounded-lg shadow-lg p-6 w-96 ">
         <div className="flex flex-row items-center ">
           <div className="logo text-black mb-40 mr-4">
-            <img src="https://lh3.googleusercontent.com/a-/ALV-UjWimej2eBYIeJ6HHFk55mYzi60Bklj2D66yTSbU5qDGxIQYCAsV=w75-h75-p-rp-mo-br100" alt="" className=" h-12 w-32" />
+            <img src="https://lh3.googleusercontent.com/a-/ALV-UjW4Ed-wKuyLkzp21Xl9WRPPmVWccKRaUaDislNjcS7M7T8sunku=w75-h75-p-rp-mo-br100" alt="" className=" h-12 w-32" />
           </div>
           <div className="text-wrap  text-justify">
             <p>
-            Just brilliant! Priya made my dog so comfortable. Love normally takes sometime to get comfortable with anyone but with her it just took 10 mins. 
-            <a  href="https://maps.app.goo.gl/gVerA2LjMieq5Jdf6"> <div className=" text-blue-400 hover:text-blue-600 cursor-pointer hover:underline ">
+            I have never left my fur baby Muffin with anyone in the last 3 years and last two days were his first time at a boarding without us. Day1 was somehow new to Muffin but Priya and his staff ensured he eats and walks in time.
+            <a  href="https://maps.app.goo.gl/b6TqYTunzv8Bybd7A"> <div className=" text-blue-400 hover:text-blue-600 cursor-pointer hover:underline ">
               
               Read more 
             </div>
@@ -74,12 +74,12 @@ const Testimonial = () => {
       <div className=" bg-slate-50  rounded-lg shadow-lg p-6 w-96 ">
         <div className="flex flex-row items-center ">
           <div className="logo text-black mb-40 mr-4">
-           <img src="https://lh3.googleusercontent.com/a-/ALV-UjW4Ed-wKuyLkzp21Xl9WRPPmVWccKRaUaDislNjcS7M7T8sunku=w75-h75-p-rp-mo-br100" alt="" className=" h-12 w-32" />
+           <img src="https://lh3.googleusercontent.com/a-/ALV-UjUbXtoHIFDvqyKxfN4_aHMsqLHt9DzGwPgm4LrUXBCeWmwDcoc0=w75-h75-p-rp-mo-br100" alt="" className=" h-12 w-32" />
           </div>
           <div className="text-wrap  text-justify">
             <p>
-            I have never left my fur baby Muffin with anyone in the last 3 years and last two days were his first time at a boarding without us. 
-            <a  href="https://maps.app.goo.gl/54ftYRtAiDF1RK2VA"> <div className=" text-blue-400 hover:text-blue-600 cursor-pointer hover:underline ">
+            Our not-very-social Shih Tzu felt at home when we left him for a few days at Scooby Doo Doo. The staff and management ensured that his stay was comfortable. They even gave us constant updates on how our little pooch was doing
+            <a  href="https://maps.app.goo.gl/X8mMruWnXvimTrJ28"> <div className=" text-blue-400 hover:text-blue-600 cursor-pointer hover:underline ">
               
               Read more 
             </div>

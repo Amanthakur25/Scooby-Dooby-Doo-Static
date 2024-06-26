@@ -1,11 +1,11 @@
 const Accomadation = {
     Deck: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/Deck_swy8jc",
-    Frendly: "https://res.cloudinary.com/dypgcizq4/image/upload/v1718956853/assets/Accomadation/Seperate_ehsjfc.jpg",
-    Seperate: "https://res.cloudinary.com/dypgcizq4/image/upload/v1718956853/assets/Accomadation/Frendly_e3hg6f.jpg",
+    Frendly: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/sp2tlemufnyeqg4jzz8q",
+    Seperate: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/rb3axmgqtohimmic8qjv",
 };
 
 const Blogs = {
-    B1: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Blog/B1_vee4nd",
+    B1: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Blog/t2genz29mvpex9hjxats",
     B2: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Blog/B2_wmsd6m",
 };
 
@@ -17,10 +17,10 @@ const Choose = {
 };
 
 const Home = {
-    H1:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/H1_vvq2dr",
-    H2:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/H2_z6st7e",
-    H3:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/H3_sm9emh",
-    H4:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/H4_yxhkt4",
+    H1:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/fvxf57xuwqm4934p5icx",
+    H2:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/owdaokmdauoiaguteqie",
+    H3:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/pebf02jwvfajvuzwz6hn",
+    H4:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/h4uweojxesk10ehjgdid",
     H5:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/H1_5_h4xnii",
 };
 
@@ -38,7 +38,7 @@ const accdog = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/
 const accdog1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdog1_gfcxf6";
 const accdogcom = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdogcom_efgfsk";
 const accfood = "";
-const BgAboutUs = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/BgAboutUs_dlrkrb";
+const BgAboutUs = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/fkeix8ssy2jrgm6xc0fd";
 const blog = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/blog_ktgtkc";
 const biks = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/briks_q3otzs";
 const d1 = "";
@@ -62,8 +62,8 @@ const dw5 = "";
 const fa1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/fa1_fvl5sl";
 const fa2 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/fa2_e7ghde";
 const logo = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/logo_rxtdnx";
-const lux1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/lux1_gwuwqm";
-const lux2 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/lux2_m0gwca";
+const lux1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Services/wrtpg1h7fptre8rvtwec";
+const lux2 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Services/j4ksu9gwotwgmhy3dfxo";
 const MeetNGreet = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/MeetNGreet_ns5ont";
 const PawImage = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/PawImage_o6n2sb";
 const pd1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/pd1_dsamdp";

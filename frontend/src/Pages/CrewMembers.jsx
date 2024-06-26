@@ -1,17 +1,8 @@
 import React , { useState} from 'react';
+import {CrewMembers} from "../constants/imageConstant";
 
 const CrewMembersPage = () => {
  
-  const [selectedImage, setSelectedImage] = useState(null);
-
-  const handleImageClick = (image) => {
-    setSelectedImage(image);
-  };
-
-  const handleCloseClick = () => {
-    setSelectedImage(null);
-  };
-
   return (
     <div className="bg-gray-100 min-h-screen">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -113,42 +104,37 @@ const CrewMembersPage = () => {
 
 
         <div class="grid grid-cols-3 gap-2 mt-10">
+          
+         
           <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M3} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M4} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M5} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M6} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M7} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M8} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M10} alt="" />
+          </div>
+         
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M2} alt="" />
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+            <img class=" max-w-full h-[435px] w-[400px] rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M11} alt="" />
           </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
-          </div>
+          
         </div>
 
 

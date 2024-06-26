@@ -83,11 +83,7 @@ const Navbar = () => {
             name:"Contact",
             path:"/contactus",
         },
-        {
-            name:"Quick Enquiry",
-            path:"/enquiry",
-        },
-        
+       
     ]
 
     const handleClickOutside = (event) => {

@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Accomadation } from '../../constants/imageConstant' // Importing the named export
 
-const s1 = Accomadation.Seperate;
-const s2 = Accomadation.Seperate;
+const s1 = Accomadation.Seperates;
+const s2 = Accomadation.Seperates;
 function SeprateAccomadations() {
   return (
     <div>
@@ -11,7 +11,7 @@ function SeprateAccomadations() {
         <img
           src={s1}
           alt="header"
-          className="w-full object-cover h-[550px]"
+          className="w-full"
         />
         <div className="absolute  flex-col top-0 left-0 w-full h-full flex items-center">
           

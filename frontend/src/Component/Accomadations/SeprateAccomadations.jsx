@@ -1,8 +1,5 @@
 import React from 'react'
-import BenefitComp from './BenefitComp'
 import { Link } from 'react-router-dom'
-
-
 import { Accomadation } from '../../constants/imageConstant' // Importing the named export
 
 const s1 = Accomadation.Seperate;
@@ -23,17 +20,17 @@ function SeprateAccomadations() {
 
       <div className=" flex justify-center items-center text-justify">
         <div className="pt-20 pb-32">
-        <h1 className=" text-[60px] text-center text-[#e87200] font-bold mt-14 font-gochi-hand text-shadowText">
+        <h1 className=" text-[40px] sm:text-[60px] text-center text-[#e87200] font-bold mt-14 font-gochi-hand text-shadowText">
         Separate Accommodation
           </h1>
           
         </div>      
       </div>
 
-      <div className=" grid grid-cols-2  justify-center items-center pb-20">
+      <div className=" grid grid-cols-1 md:grid-cols-2 gap-y-4 justify-center items-center pb-20">
         <div className=" px-10 flex justify-end items-end">
           
-          <p className=' text-[25px] w-[65%] '>
+          <p className=' text-[25px] w-full lg:w-[65%] '>
             "Our Separate Accommodation is ideal for dogs who prefer their own space or may not be fully comfortable in group settings. Each guest in our Separate Accommodation enjoys single occupancy, providing ample space to relax and unwind. Throughout the day, they also have personalized play sessions and socializing opportunities tailored to their preferences. This option ensures that even more reserved or independent pets can enjoy a fulfilling and enjoyable stay."
           </p>
           
@@ -41,7 +38,7 @@ function SeprateAccomadations() {
         </div>
 
         <div className='flex justify-start items-start'>
-          <img src={s2} alt="dogstay" loading="lazy" className=" w-[55%]" />
+          <img src={s2} alt="dogstay" loading="lazy" className=" lg:w-[55%]" />
         </div>
 
       </div>

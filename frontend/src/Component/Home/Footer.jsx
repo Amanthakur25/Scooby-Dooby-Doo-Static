@@ -7,9 +7,9 @@ import { logo } from "../../constants/imageConstant";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black text-white px-4 mt-1">
+      <footer className="relative bg-black text-white px-4 mt-1">
 
-        <div className="container mx-auto flex flex-col lg:flex-row items-center md:justify-between py-6">
+        <div className=" mx-auto flex flex-col lg:flex-row items-center md:justify-between py-6">
           <div className="flex flex-col md:flex-row items-center mb-4 md:mb-0 w-full md:w-auto">
 
             <img src={logo} alt="Your Logo" className="md:ml-16 w-32 h-auto text-white md:mr-32" style={{ filter: 'invert(1)' }} />

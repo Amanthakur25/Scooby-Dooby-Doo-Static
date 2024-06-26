@@ -25,15 +25,15 @@ const CrewMembersPage = () => {
         </div>
 
         <div className="flex flex-col gap-y-20 mb-10">
-          <div className="flex justify-center items-center">
+          <div className="flex max-md:flex-col justify-center items-center">
             <div className="pl-2 flex justify-end  items-end bg-[#e87200]">
               <img
                 src="https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/suuz1ttsy8mfohmf3jn4"
                 alt="team"
-                className="w-[200px]"
+                className=" max-md:h-[300px] w-[250px] md:w-[200px] object-cover"
               />
             </div>
-            <div className="gap-y-1 md:gap-y-5 w-[50%]  bg-[#e87200] p-5 text-sm">
+            <div className="gap-y-1 md:gap-y-5 w-[70%] md:w-[50%]  bg-[#e87200] p-5 text-sm">
               <p>
                 <span className="text-bold text-3xl text-white">Priya Raghuvanshi</span>, who
                 has an MBA degree, is the creator of the cage-free dog boarding
@@ -60,8 +60,8 @@ const CrewMembersPage = () => {
             </div>
           </div>
 
-          <div className="flex justify-center items-center">
-            <div className="gap-y-1 md:gap-y-5 w-[50%] bg-[#e87200] p-5 text-sm">
+          <div className="flex max-md:flex-col justify-center items-center">
+            <div className=" max-md:order-2  gap-y-1 md:gap-y-5 w-[70%] md:w-[50%] bg-[#e87200] p-5 text-sm">
               <p>
                 <span className="text-bold text-3xl text-white">Arno Ghosh</span>,
                 holds a bachelor’s degree in hotel management and has experience in the corporate sector. He brings to Scooby dooby doo pet hotel his great organizational skills, along with leadership qualities and a very strong disposition towards customer satisfaction. When Arno started helping Priya run her business in 2022, he worked on every possible scope of improvement for making the facility stand out.
@@ -73,11 +73,11 @@ const CrewMembersPage = () => {
                 Arno knows that Customer Satisfaction is best achieved when you exceed your customer’s expectations. His disposition toward customer satisfaction can be felt by every client that visits Scooby–doo pet hotel but he insists that it has to be felt by the pets that board here first. Dogs do not want to be locked up or left alone at any time. So here we are at the service of your dog, a step away to help you out 24×7.
               </p>
             </div>
-            <div className="pr-2 flex justify-end items-end bg-[#e87200]">
+            <div className="max-md:order-1 pr-2 flex justify-end items-end bg-[#e87200]">
               <img
                 src="https://i.pinimg.com/474x/43/3c/e6/433ce6cea8436711544d24ff2f881aca.jpg"
                 alt="team"
-                className="w-[300px]"
+                className="max-md:h-[300px] w-[250px] md:w-[300px] object-cover"
               />
             </div>
           </div>

@@ -15,21 +15,11 @@ import { lux1 } from "../../constants/imageConstant";
 import { lux2 } from "../../constants/imageConstant";
 const DoggyDayCare = () => {
 
-  // const dogImages = [
-  //   'https://via.placeholder.com/150/FFB6C1/000000?text=Dog1',
-  //   'https://via.placeholder.com/150/FFB6C1/000000?text=Dog2',
-  //   'https://via.placeholder.com/150/FFB6C1/000000?text=Dog3',
-  //   'https://via.placeholder.com/150/FFB6C1/000000?text=Dog4',
-  //   'https://via.placeholder.com/150/FFB6C1/000000?text=Dog5',
-  //   'https://via.placeholder.com/150/FFB6C1/000000?text=Dog6',
-  // ];
-
-
   return (
     <>
 
       {/* Hero Section */}
-      <div className="relative w-full flex">
+      <div className=" w-full flex flex-wrap justify-center items-center">
         <img
           src={daycare1}
           alt="header"
@@ -161,48 +151,46 @@ const DoggyDayCare = () => {
       <div className=' flex flex-col justify-center items-center py-32'>
         <p className=' w-[60%] text-[20px] text-center font-semibold'>
           "We offer premium pet boarding and flexible daycare solutions to meet your needs.
-          At Scooby Dooby Doo, we redefine pet care with our <span className=' font-bold text-[21px]'>24/7 boarding</span> options designed to accommodate both short-term getaways and extended stays lasting months."
-        </p>
+At Scooby Dooby Doo, we redefine pet care with our 
+<span className=' font-bold text-[21px]'>24/7 boarding</span> 
+options designed to accommodate both short-term getaways and extended stays lasting months."
 
+          
+          </p>
+          
       </div>
 
-      <div className=" grid grid-cols-2  justify-center items-center pb-20">
-        <div className=" px-10 flex flex-col justify-end items-end">
-          <h1 className=' text-[35px] text-[#e87200] font-semibold  w-[65%]'> Luxury boarding</h1>
+      <div className=" grid grid-cols-1 md:grid-cols-2  justify-center items-center pb-20">
+        <div className=" px-10 flex flex-col justify-center md:justify-end items-center md:items-end">
+          <h1 className=' text-[35px] text-[#e87200] font-semibold  md:w-[65%]'> Luxury boarding</h1>
+          
+          <p className=' text-[20px] md:w-[65%] '>
+          Our luxurious accommodations ensure that your furry family members experience comfort, security, and personalized attention around the clock. Whether you’re off on a vacation or handling a long-term commitment, rest assured knowing your pet is in caring hands.
 
-          <p className=' text-[20px] w-[65%] '>
-            Our luxurious accommodations ensure that your furry family members experience comfort, security, and personalized attention around the clock. Whether you’re off on a vacation or handling a long-term commitment, rest assured knowing your pet is in caring hands.
           </p>
 
 
         </div>
 
-        <div className='flex justify-start items-start'>
+        <div className='flex justify-center md:justify-start items-center md:items-start max-md:mt-5'>
           <img src={lux1} alt="dogstay" loading="lazy" className=" w-[55%]" />
         </div>
 
       </div>
 
-      <div className=" grid grid-cols-2  justify-center items-center pb-20">
-        <div className='flex justify-end items-end'>
+      <div className=" grid grid-cols-1 md:grid-cols-2  justify-center items-center pb-20">
+      <div className='max-md:order-2 flex justify-center md:justify-end items-center md:items-end max-md:mt-5'>
           <img src={lux2} alt="dogstay" loading="lazy" className=" w-[55%]" />
         </div>
-        <div className=" px-10 flex flex-col justify-start items-start">
-          <h1 className=' text-[35px] text-[#e87200] font-semibold  w-[65%]'> Daycare Service</h1>
+        <div className=" px-10 flex flex-col justify-center md:justify-start items-center md:items-start">
+          <h1 className=' text-[35px] text-[#e87200] font-semibold  md:w-[65%]'> Daycare Service</h1>
+          
+          <p className='max-md:order-1 text-[20px] md:w-[65%] '>
+          For those needing flexible daytime care, our hourly daycare service is the perfect solution. Tailored to meet the needs of working pet parents or those with busy schedules, our daycare offers a stimulating environment where dogs can socialize, exercise, and receive top-notch care while you handle your responsibilities.
+Whether it’s for a few hours or several months, we’re here to provide your pet with a safe, nurturing environment they’ll love.
 
-          <p className=' text-[20px] w-[65%] '>
-            For those needing flexible daytime care, our hourly daycare service is the perfect solution. Tailored to meet the needs of working pet parents or those with busy schedules, our daycare offers a stimulating environment where dogs can socialize, exercise, and receive top-notch care while you handle your responsibilities.
-            Whether it’s for a few hours or several months, we’re here to provide your pet with a safe, nurturing environment they’ll love.
-
-          </p>
-
-
+          </p>       
         </div>
-
-
-
-
-
       </div>
 
       <div className=' flex flex-col justify-center items-center py-32'>

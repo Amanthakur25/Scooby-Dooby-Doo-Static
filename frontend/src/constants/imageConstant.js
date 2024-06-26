@@ -33,6 +33,20 @@ const PhotoGallery = {
     Dog6:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/PhotoGallery/Dog6_vlqh3r",
 };
 
+const CrewMembers = {
+    M1: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/vwwunlyy91lmjrdvlwyt",
+    M2:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/eaf17fukt4svqxioipkw",
+    M3:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/il1o43znjxavng7e0k07",
+    M4:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/npp2xdswu1tlgtqcy2m9",
+    M5:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/uwqnfxxvzeacmf8lstkt",
+    M6:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/ep0nijzejyjpmwtssqky",
+    M7:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/h5nvdpwj2skflhmvzif3",
+    M8:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/lfetgxqurl9uworppkis",
+    M9:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/ssvmcclxuiqbpwkg1ifi",
+    M10:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/fnub1pwpanid4z0vzdo9",
+    M11:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/m8oi93wqzskwqg6sgzg7"
+}
+
 const AboutUsDohimg = "";
 const accdog = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdog_qpwuup";
 const accdog1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdog1_gfcxf6";
@@ -73,6 +87,7 @@ const s3 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/a
 const untitledDesign = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Untitled_design_okcipg";
 
 export {
+    CrewMembers,
     Accomadation,
     Blogs,
     Choose,

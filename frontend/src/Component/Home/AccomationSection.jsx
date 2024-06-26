@@ -26,7 +26,7 @@ const AccomationSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-10/12 mx-auto ">
           <div className="bg-transparent p-6  hover:bg-black rounded-lg shadow-lg">
-            <img src={Frendly} alt="Friendly" className="w-full h-auto mb-4 rounded-lg" />
+            <img src={Frendly} alt="Friendly" className="w-[427px] h-[336px] mb-4 rounded-lg" />
             <h3 className="text-2xl text-white font-semibold mb-2">Friendly</h3>
             <hr className="border-gray-300 mb-4" />
             <p className='text-white'>Friendly Accommodations</p>
@@ -35,7 +35,7 @@ const AccomationSection = () => {
             </Link>
           </div>
           <div className="bg-transparent p-6 hover:bg-black rounded-lg shadow-lg">
-            <img src={Deck} alt="Deck" className="w-full h-auto mb-4 rounded-lg" />
+            <img src={Deck} alt="Deck" className="w-[427px] h-[336px] mb-4 rounded-lg" />
             <h3 className="text-2xl text-white font-semibold mb-2">Deck</h3>
             <hr className="border-gray-300 mb-4" />
             <p className='text-white'>Deck Accommodations</p>
@@ -44,7 +44,7 @@ const AccomationSection = () => {
             </Link>
           </div>
           <div className="bg-transparent p-6 hover:bg-black rounded-lg shadow-lg">
-            <img src={Separate} alt="Separate" className="w-full h-auto mb-4 rounded-lg" />
+            <img src={Separate} alt="Separate" className="w-[427px] h-[336px] mb-4 rounded-lg" />
             <h3 className="text-2xl text-white font-semibold mb-2">Separate</h3>
             <hr className="border-gray-300 mb-4" />
             <p className='text-white'>Separate Accommodations</p>

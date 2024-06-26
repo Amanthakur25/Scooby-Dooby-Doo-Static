@@ -93,7 +93,7 @@ function AboutUsHeader() {
           <div className="flex flex-col lg:flex-row justify-center items-center">
             <div className="relative flex justify-center items-center mb-8 lg:mb-0 lg:w-1/2">
               <img
-                src="https://i.pinimg.com/564x/3e/39/4a/3e394aa91a338a3c4fc653ca66954a29.jpg"
+                src="https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/me5yywfopuhu73tjcokg"
                 alt="Dog Walking"
                 className="w-full shadow-lg"
               />

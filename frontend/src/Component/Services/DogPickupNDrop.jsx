@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaTruckPickup } from "react-icons/fa";
-import Testimonial from '../Home/Testimonial';
 import { Link } from 'react-router-dom';
 import {pd1} from "../../constants/imageConstant"
 const DogPickupNDrop = () => {

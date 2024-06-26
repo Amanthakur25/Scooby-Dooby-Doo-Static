@@ -1,5 +1,4 @@
 import React from 'react';
-import Testimonial from '../Home/Testimonial';
 import { GiDistressSignal } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import {dw1} from "../../constants/imageConstant"
@@ -11,7 +10,7 @@ const DogWalk = () => {
     return (
         <div className="">
             {/* Hero Section */}
-            <div className="relative w-full flex">
+            <div className="w-full flex flex-wrap justify-center items-center">
         <img
           src={dw1}
           alt="header"

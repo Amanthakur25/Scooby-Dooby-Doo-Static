@@ -1,46 +1,8 @@
-import React from 'react';
-import { FaUser, FaDog, FaMedkit, FaPaw } from 'react-icons/fa';
-
-const crewMembers = [
-  {
-    name: 'Emily Johnson',
-    position: 'Head Caretaker',
-    description: 'Emily oversees the daily operations and ensures every pet receives top-notch care. She has a special bond with senior dogs and enjoys creating enriching activities for them.',
-    icon: <FaUser className="text-4xl text-blue-500" />,
-  },
-  {
-    name: 'Mark Davis',
-    position: 'Training Specialist',
-    description: 'Mark is a certified dog trainer with a passion for teaching pups new tricks and behaviors. His patience and positive reinforcement techniques make him a favorite among our furry guests.',
-    icon: <FaDog className="text-4xl text-green-500" />,
-  },
-  {
-    name: 'Sophie Roberts',
-    position: 'Veterinary Nurse',
-    description: 'Sophie provides expert medical care and ensures all pets are healthy during their stay. She has a gentle touch and a keen eye for spotting any signs of discomfort or illness.',
-    icon: <FaMedkit className="text-4xl text-red-500" />,
-  },
-  {
-    name: 'Alexandra Lee',
-    position: 'Playtime Coordinator',
-    description: 'Alexandra organizes fun play sessions and socialization activities for dogs. She loves seeing tails wagging and dogs having a blast together in our play area.',
-    icon: <FaPaw className="text-4xl text-yellow-500" />,
-  },
-  {
-    name: 'Thomas Adwin',
-    position: 'Wellness Supervisor',
-    description: 'Thomas ensures that each pet receives the proper diet and exercise regimen to promote their overall well-being. He believes in the importance of a healthy lifestyle for all pets.',
-    icon: <FaMedkit className="text-4xl text-green-500" />,
-  },
-  {
-    name: 'Lily Chang',
-    position: 'Customer Care Specialist',
-    description: 'Lily welcomes every pet and owner with a warm smile and ensures that all inquiries and requests are handled promptly. She loves building relationships with our clients and their pets.',
-    icon: <FaUser className="text-4xl text-purple-500" />,
-  },
-];
+import React , { useState} from 'react';
+import {CrewMembers} from "../constants/imageConstant";
 
 const CrewMembersPage = () => {
+ 
   return (
     <div className="bg-gray-100 min-h-screen">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -82,7 +44,7 @@ const CrewMembersPage = () => {
                 important fact: all dogs are inherently social pack animals. This
                 means that they can get along with other strange dogs in a new
                 environment as long as they are in a balanced pack with a strong,
-                confident, and fair leader). She found that if you evaluate every
+                confident, and fair leader. She found that if you evaluate every
                 dog first and follow the steps of careful introduction, pack
                 socialization and consistent leadership, that a balanced pack can be
                 created and maintained in a boarding facility 24-hours-a-day, which
@@ -101,7 +63,7 @@ const CrewMembersPage = () => {
           <div className="flex max-md:flex-col justify-center items-center">
             <div className=" max-md:order-2  gap-y-1 md:gap-y-5 w-[70%] md:w-[50%] bg-[#e87200] p-5 text-sm">
               <p>
-                <span className="text-bold text-3xl text-white">Arno Ghosh</span>, 
+                <span className="text-bold text-3xl text-white">Arno Ghosh</span>,
                 holds a bachelor’s degree in hotel management and has experience in the corporate sector. He brings to Scooby dooby doo pet hotel his great organizational skills, along with leadership qualities and a very strong disposition towards customer satisfaction. When Arno started helping Priya run her business in 2022, he worked on every possible scope of improvement for making the facility stand out.
               </p>
               <p>
@@ -121,31 +83,64 @@ const CrewMembersPage = () => {
           </div>
         </div>
 
-        {/* Crew Members Section */}
-        <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-5xl">
-            Meet Our Crew
-          </h1>
-          <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-            Our team of passionate pet lovers dedicated to creating a home away from home for your furry friends.
+
+        {/* Additional provided text content */}
+        <div className="text-center mt-10 text-gray-800">
+          <h2 className="text-3xl font-bold mb-4">Meet the Team at Scooby Dooby Doo Pet Hotel</h2>
+          <p className="text-lg leading-relaxed">
+            At Scooby Dooby Doo Pet Hotel, our team is a close-knit family of dog lovers who are dedicated to providing exceptional care and creating a home away from home for your furry friends. Every member of our crew is selected not just for their passion for pets but for their commitment to excellence in every aspect of pet care.
+          </p>
+          {/* Additional detailed description of the team */}
+          <p className="text-lg leading-relaxed mt-4">
+            Our team undergoes rigorous training to master the intricacies of dog behavior, safety handling, and pet health. This includes learning the latest in medical care, emergency first aid, and creating a safe, engaging environment for dogs of all breeds and sizes. Their ongoing education ensures that they are always up-to-date with the best practices in pet hospitality.
+          </p>
+          <p className="text-lg leading-relaxed mt-4">
+            But what truly sets our crew apart is their genuine love for dogs. This isn’t just a job for them—it’s a calling. They understand that each dog is unique and deserves personalized attention and care. Our team members are excellent hosts, making sure every dog feels loved, secure, and happy during their stay. From interactive play sessions to cozy nap times, they are experts at creating a balanced and enriching experience for your pet.
+          </p>
+          <p className="text-lg leading-relaxed mt-4">
+            Whether it's greeting you with a friendly smile at check-in, ensuring your pet’s medical needs are met, or providing comforting cuddles and play, our team excels in making your pet's stay unforgettable. At Scooby Dooby Doo Pet Hotel, our crew’s dedication, expertise, and genuine affection for animals create a welcoming and joyful environment that both pets and their owners trust and love.
           </p>
         </div>
-        <div className="mt-16 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-          {crewMembers.map((member, index) => (
-            <div key={index} className="flex flex-col items-center bg-white p-8 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105">
-              <div className="flex-shrink-0">
-                {member.icon}
-              </div>
-              <div className="mt-4 text-center">
-                <h2 className="text-lg font-medium text-gray-900">{member.name}</h2>
-                <p className="text-sm text-gray-600">{member.position}</p>
-                <p className="mt-2 text-sm text-gray-700">{member.description}</p>
-              </div>
-            </div>
-          ))}
+
+
+        <div class="grid grid-cols-3 gap-2 mt-10">
+          
+         
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M3} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M4} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M5} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M6} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M7} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M8} alt="" />
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M10} alt="" />
+          </div>
+         
+          <div>
+            <img class="h-auto max-w-full rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M2} alt="" />
+          </div>
+          <div>
+            <img class=" max-w-full h-[435px] w-[400px] rounded-lg opacity-50 hover:opacity-100" src={CrewMembers.M11} alt="" />
+          </div>
+          
         </div>
+
+
       </div>
     </div>
+
   );
 };
 

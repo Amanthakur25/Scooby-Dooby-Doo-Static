@@ -8,11 +8,12 @@ import { FaDog } from 'react-icons/fa';
 // import MeetNGreet from "../../assets/MeetNGreet.jpg"
 import { Link } from 'react-router-dom';
 
-import { daycare1 } from "../../constants/imageConstant";
+import { DogDay } from "../../constants/imageConstant";
 import { daycare2 } from "../../constants/imageConstant";
 import { daycare3 } from "../../constants/imageConstant";
 import { lux1 } from "../../constants/imageConstant";
 import { lux2 } from "../../constants/imageConstant";
+
 const DoggyDayCare = () => {
 
   return (
@@ -21,17 +22,7 @@ const DoggyDayCare = () => {
       {/* Hero Section */}
       <div className=" w-full flex flex-wrap justify-center items-center">
         <img
-          src={daycare1}
-          alt="header"
-          className=" object-cover h-[550px]"
-        />
-        <img
-          src={daycare2}
-          alt="header"
-          className=" object-cover h-[550px]"
-        />
-        <img
-          src={daycare3}
+          src={DogDay}
           alt="header"
           className=" object-cover h-[550px]"
         />

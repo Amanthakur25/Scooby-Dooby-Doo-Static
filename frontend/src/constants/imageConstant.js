@@ -2,6 +2,7 @@ const Accomadation = {
     Deck: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/Deck_swy8jc",
     Frendly: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/sp2tlemufnyeqg4jzz8q",
     Seperate: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/rb3axmgqtohimmic8qjv",
+    Seperates: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/msfjfcg2kmvcvysfwnvl",
 };
 
 const Blogs = {
@@ -66,7 +67,7 @@ const accdog = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/
 const accdog1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdog1_gfcxf6";
 const accdogcom = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdogcom_efgfsk";
 const accfood = "";
-const BgAboutUs = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/fkeix8ssy2jrgm6xc0fd";
+const BgAboutUs = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/i2jzwx1dzkcppilmldq8";
 const blog = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/blog_ktgtkc";
 const biks = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/briks_q3otzs";
 const d1 = "";
@@ -99,9 +100,13 @@ const s1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/a
 const s2 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/s2_nan1rz";
 const s3 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/s3_tffjbf";
 const untitledDesign = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Untitled_design_okcipg";
+const DogDayCare="https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Services/fbvprzyzmg6e5cvizc00"
+const DogDay="https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Services/a5zzu9h8u33wqepr5gzu"
 
 export {
     VideoGalleryLink,
+    DogDay,
+    DogDayCare,
     CrewMembers,
     Accomadation,
     Blogs,

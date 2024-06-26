@@ -47,6 +47,20 @@ const CrewMembers = {
     M11:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/m8oi93wqzskwqg6sgzg7"
 }
 
+const VideoGalleryLink = { 
+    V1:"https://youtube.com/shorts/IPGamxU01tM?feature=share",
+    V2:"https://youtube.com/shorts/JgNHPrEHWcw?feature=share",
+    V3:"https://youtube.com/shorts/EeNi86VNR98?feature=share",
+    V4:"https://youtube.com/shorts/sU4JHg4Hvd0?feature=share",
+    V5:"https://youtube.com/shorts/M3zPq3-pnBE?feature=share",
+    V6:"https://youtube.com/shorts/0cCQk1MzOyM?feature=share" ,
+    V7:"https://youtube.com/shorts/_8GTaIevObk?feature=share",
+    V8:"https://youtube.com/shorts/eoIMgEtFEaw?feature=share",
+    V9:"https://youtube.com/shorts/rCHcDH4yrOk?feature=share",
+    V10:"https://res.cloudinary.com/dypgcizq4/video/upload/f_auto:video,q_auto/v1/assets/VideoGallery/yri3pnjwjha15m2dj0ei",
+    V11:"https://res.cloudinary.com/dypgcizq4/video/upload/f_auto:video,q_auto/v1/assets/VideoGallery/mnebnmb80m6qlaxqxdel"
+}
+
 const AboutUsDohimg = "";
 const accdog = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdog_qpwuup";
 const accdog1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdog1_gfcxf6";
@@ -87,6 +101,7 @@ const s3 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/a
 const untitledDesign = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Untitled_design_okcipg";
 
 export {
+    VideoGalleryLink,
     CrewMembers,
     Accomadation,
     Blogs,

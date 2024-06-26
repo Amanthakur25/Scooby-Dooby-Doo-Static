@@ -117,11 +117,6 @@ const DogPickupNDrop = () => {
             </div>
 
 
-            {/* Testimonials Section */}
-            <Testimonial />
-
-
-
 
         </div>
     );

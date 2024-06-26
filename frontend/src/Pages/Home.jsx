@@ -4,6 +4,7 @@ import HeroSection from '../Component/Home/HeroSection'
 import Welcome from '../Component/Home/Welcome'
 import Testimonial from '../Component/Home/Testimonial'
 import WhyChooseUs from '../Component/Home/WhyChooseUs';
+import Review from '../Component/Home/Review'
 
 
 
@@ -13,7 +14,8 @@ const Home = () => {
      <HeroSection/> 
      <Welcome/>
     <AccomationSection/> 
-    <Testimonial/>
+    <Review/>
+    {/* <Testimonial/> */}
      <WhyChooseUs/>
  
 

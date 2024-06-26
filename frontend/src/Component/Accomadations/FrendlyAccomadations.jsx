@@ -28,10 +28,10 @@ function FrendlyAccomadations() {
         </div>      
       </div>
 
-      <div className=" grid grid-cols-2  justify-center items-center pb-20">
+      <div className=" grid grid-cols-1 md:grid-cols-2 gap-y-4 justify-center items-center pb-20">
         <div className=" px-10 flex justify-end items-end">
           
-          <p className=' text-[25px] w-[65%] '>
+          <p className=' text-[25px] w-full lg:w-[65%] '>
             "For sociable dogs who love interacting with other dogs and humans, our Friendly Accommodation provides a vibrant social environment. New guests undergo a temperament test to ensure they are comfortable and safe in group settings. Dogs that pass the test enjoy playtime, socializing, and supervised interactions with other friendly guests."
           </p>
           
@@ -39,7 +39,7 @@ function FrendlyAccomadations() {
         </div>
 
         <div className='flex justify-start items-start'>
-          <img src={fa2} alt="dogstay" loading="lazy" className=" w-[55%]" />
+          <img src={fa2} alt="dogstay" loading="lazy" className=" lg:w-[55%]" />
         </div>
 
       </div>

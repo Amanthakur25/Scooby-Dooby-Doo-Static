@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 
 const Testimonial = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center mt-20">
       <div className=" text-4xl text-orange-500 flex justify-center items-center ">
         <h1>Testimonials</h1>
       </div>
@@ -13,11 +13,11 @@ const Testimonial = () => {
         <h3>Hear What Our Happy Clients Have To Say</h3>
       </div>
 
-      <div className=" bg-orange-500 font-bold  text-black text-xl h-52 w-full relative mt-20 xl:mt-60  flex justify-center items-center">
+      <div className=" bg-orange-500 font-bold  text-black text-xl h-52 w-full relative  mt-60  flex justify-center items-center">
       <Link to="https://maps.app.goo.gl/6iWaa8jVXbXauzcB7?g_st=iwb"> Sell All The Google Reviews</Link>
      
       </div>
-      <div  className="flex justify-center items-center flex-col xl:flex-row gap-10 xl:absolute xl:mt-28  max-xl:w-full max-xl:py-5">
+      <div  className="flex justify-center items-center  gap-10 absolute mt-28 ">
 
          <div className=" bg-slate-50  rounded-lg shadow-lg p-6 w-96 ">
         <div className="flex flex-row items-center ">
@@ -26,7 +26,8 @@ const Testimonial = () => {
           </div>
           <div className="text-wrap  text-justify">
             <p>
-            This dog boarding house deserves nothing short of five stars! From the moment you step in, it's evident that the staff is dedicated to providing exceptional care for our furry friends. <a  href="https://maps.app.goo.gl/aK64Q6m32dStutVV7"> <div className=" text-blue-400 hover:text-blue-600 cursor-pointer hover:underline ">
+            This dog boarding house deserves nothing short of five stars! From the moment you step in, it's evident that the staff is dedicated to providing exceptional care for our furry friends. 
+            <a  href="https://maps.app.goo.gl/aK64Q6m32dStutVV7"> <div className=" text-blue-400 hover:text-blue-600 cursor-pointer hover:underline ">
               
               Read more 
             </div>

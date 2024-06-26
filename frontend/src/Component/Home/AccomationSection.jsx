@@ -3,20 +3,24 @@ import {dayimg} from "../../constants/imageConstant";
 import {untitledDesign} from "../../constants/imageConstant";
 import { Link } from 'react-router-dom';
 import {Accomadation} from '../../constants/imageConstant'
-
+import banner from "../../assets/PhotoGallery/banner.jpeg"
 const Frendly=Accomadation.Frendly;
 const Deck=Accomadation.Deck;
 const Separate=Accomadation.Seperate;
 
 const AccomationSection = () => {
   return (
-    <div className="relative w-full text-center mt-80 ">
-      <div className="absolute inset-0">
-        <img className="w-full h-auto min-h-screen" src={untitledDesign} alt="Dog Paw Background" />
+    <div className="relative w-full text-center h-full  md:h-[1000px] lg:h-[1130px] bg-[#e2740b] ">
+      <div className=" hidden md:block absolute inset-0">
+        <img className="w-full h-auto min-h-screen" src={banner} loading='lazy' alt="Dog Paw Background" />
       </div>
-      <img className="absolute top-[-29%] left-1/2 transform -translate-x-1/2 w-auto h-auto" src={dayimg} alt="Dog" />
 
-      <div className="relative flex flex-col items-center justify-center py-16">
+      <div className=' block md:hidden absolute h-full  inset-0'>
+        <img className="w-full h-full object-cover" src={untitledDesign} loading='lazy' alt="untitled" />
+
+      </div>
+
+      <div className="relative flex flex-col items-center justify-center md:top-[275px] py-16">
         <h2 className="text-4xl text-white font-bold mb-4">Accommodation</h2>
         <p className="text-lg text-white mb-8">Best pet accommodation facility in Hyderabad.</p>
         
@@ -50,7 +54,7 @@ const AccomationSection = () => {
           </div>
         </div>
         <a href="tel:7702564422">
-        <button className=" p-4 border-2 bg-white text-orange-600 rounded-lg transition duration-500 ease-in-out hover:-translate-y-1 hover:text-white hover:scale-110 hover:bg-slate-900 ">
+        <button className=" mt-5 p-4 border-2 bg-white text-orange-600 rounded-lg transition duration-500 ease-in-out hover:-translate-y-1 hover:text-white hover:scale-110 hover:bg-slate-900 ">
           Call Us @7702564422
         </button> 
      

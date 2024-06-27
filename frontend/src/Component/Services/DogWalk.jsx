@@ -2,10 +2,8 @@ import React from 'react';
 import { GiDistressSignal } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import {DogDayCare} from "../../constants/imageConstant"
-import {dw2} from "../../constants/imageConstant"
-import {dw3} from "../../constants/imageConstant"
-import {dw4} from "../../constants/imageConstant"
-import dw5 from "../../assets/dw5.jpg"
+import {dw5} from "../../constants/imageConstant"
+
 const DogWalk = () => {
     return (
         <div className="">

@@ -3,7 +3,7 @@ import { GiDistressSignal } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import {DogDayCare} from "../../constants/imageConstant"
 import {dw5} from "../../constants/imageConstant"
-
+import walk from "../../assets/PhotoGallery/walk.jpg"
 const DogWalk = () => {
     return (
         <div className="">
@@ -12,7 +12,12 @@ const DogWalk = () => {
         <img
           src={DogDayCare}
           alt="header"
-          className=" object-cover h-[550px]"
+          className=" hidden md:block object-cover h-[550px]"
+        />
+        <img
+          src={walk}
+          alt="header"
+          className=" block md:hidden object-cover h-[550px]"
         />
       
         
@@ -36,7 +41,7 @@ const DogWalk = () => {
                 <div className="flex max-md:flex-col justify-center items-center mt-8">
                     <div className='max-md:order-2 flex flex-col  md:w-[50%]'>
                     <h3 className="text-2xl font-bold mb-4 text-gray-800">How Our Dog Walking Service Works:</h3>
-                    <ol className="list-decimal text-lg text-gray-700">
+                    <ol className="list-decimal text-lg text-gray-700 max-sm: px-5">
                         <li className="mb-2">Initial Consultation: We start with an initial consultation to understand your dog's specific needs, preferences, and any special requirements they may have.</li>
                         <li className="mb-2">Customized Walk Schedules: Based on your input, we create a personalized walking schedule that fits seamlessly into your routine, whether you need daily, weekly, or occasional walks.</li>
                         <li className="mb-2">Experienced Walkers: Our team of experienced and trained walkers is dedicated to providing the highest level of care and attention, ensuring your dog’s well-being during each walk.</li>

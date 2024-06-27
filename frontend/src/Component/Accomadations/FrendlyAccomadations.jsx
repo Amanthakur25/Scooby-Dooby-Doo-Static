@@ -22,7 +22,7 @@ function FrendlyAccomadations() {
 
       <div className=" flex justify-center items-center text-justify">
         <div className="pt-20 pb-32">
-          <h1 className=" text-[60px] text-center text-[#e87200] font-bold mt-14 font-gochi-hand text-shadowText">
+          <h1 className=" text-[40px] md:text-[60px] text-center text-[#e87200] font-bold mt-14 font-gochi-hand text-shadowText">
             Friendly Accommodation
           </h1>
 

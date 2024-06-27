@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { FaDog } from 'react-icons/fa';
 // import MeetNGreet from "../../assets/MeetNGreet.jpg"
 import { Link } from 'react-router-dom';
-
+import dayca from "../../assets/PhotoGallery/dayca.jpeg"
 import { DogDay } from "../../constants/imageConstant";
 import { daycare2 } from "../../constants/imageConstant";
 import { daycare3 } from "../../constants/imageConstant";
@@ -24,7 +24,12 @@ const DoggyDayCare = () => {
         <img
           src={DogDay}
           alt="header"
-          className=" object-cover h-[550px]"
+          className="hidden md:block object-cover h-[550px]"
+        />
+        <img
+          src={dayca}
+          alt="header"
+          className="block md:hidden object-cover h-[550px]"
         />
 
       </div>

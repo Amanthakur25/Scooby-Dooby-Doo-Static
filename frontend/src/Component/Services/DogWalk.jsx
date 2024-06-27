@@ -3,7 +3,7 @@ import { GiDistressSignal } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import {DogDayCare} from "../../constants/imageConstant"
 import {dw5} from "../../constants/imageConstant"
-
+import walk from "../../assets/PhotoGallery/walk.jpg"
 const DogWalk = () => {
     return (
         <div className="">

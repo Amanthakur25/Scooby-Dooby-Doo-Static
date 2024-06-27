@@ -1,7 +1,7 @@
 import React from 'react';
 import { GiDistressSignal } from "react-icons/gi";
 import { Link } from 'react-router-dom';
-import {dw1} from "../../constants/imageConstant"
+import {DogDayCare} from "../../constants/imageConstant"
 import {dw2} from "../../constants/imageConstant"
 import {dw3} from "../../constants/imageConstant"
 import {dw4} from "../../constants/imageConstant"
@@ -12,21 +12,11 @@ const DogWalk = () => {
             {/* Hero Section */}
             <div className="w-full flex flex-wrap justify-center items-center">
         <img
-          src={dw1}
+          src={DogDayCare}
           alt="header"
           className=" object-cover h-[550px]"
         />
-        
-        <img
-          src={dw3}
-          alt="header"
-          className=" object-cover h-[550px]"
-        />
-        <img
-          src={dw4}
-          alt="header"
-          className=" object-cover h-[550px]"
-        />
+      
         
       </div>
             

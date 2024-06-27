@@ -8,11 +8,12 @@ import { FaDog } from 'react-icons/fa';
 // import MeetNGreet from "../../assets/MeetNGreet.jpg"
 import { Link } from 'react-router-dom';
 
-import { daycare1 } from "../../constants/imageConstant";
+import { DogDay } from "../../constants/imageConstant";
 import { daycare2 } from "../../constants/imageConstant";
 import { daycare3 } from "../../constants/imageConstant";
 import { lux1 } from "../../constants/imageConstant";
 import { lux2 } from "../../constants/imageConstant";
+
 const DoggyDayCare = () => {
 
   return (
@@ -21,17 +22,7 @@ const DoggyDayCare = () => {
       {/* Hero Section */}
       <div className=" w-full flex flex-wrap justify-center items-center">
         <img
-          src={daycare1}
-          alt="header"
-          className=" object-cover h-[550px]"
-        />
-        <img
-          src={daycare2}
-          alt="header"
-          className=" object-cover h-[550px]"
-        />
-        <img
-          src={daycare3}
+          src={DogDay}
           alt="header"
           className=" object-cover h-[550px]"
         />
@@ -130,7 +121,7 @@ const DoggyDayCare = () => {
           <h2 className="text-3xl font-bold mb-4">To proceed with the booking, fill the Google Form:</h2>
           <div className="flex flex-col items-center justify-center mb-8">
               <Link  className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg mb-4 transition duration-300 transform hover:scale-105"
-                href="https://docs.google.com/forms/d/1-Ru5nmLJWJSZp5hVsDtBSAsXs-6T0J3GFbls7qm7x18/edit#responses"
+                to="https://docs.google.com/forms/d/1-Ru5nmLJWJSZp5hVsDtBSAsXs-6T0J3GFbls7qm7x18/edit#responses"
                 target="_blank"
                 rel="noopener noreferrer"
                 

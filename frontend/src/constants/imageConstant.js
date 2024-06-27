@@ -2,6 +2,7 @@ const Accomadation = {
     Deck: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/Deck_swy8jc",
     Frendly: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/sp2tlemufnyeqg4jzz8q",
     Seperate: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Accomadation/rb3axmgqtohimmic8qjv",
+    Seperates: "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/msfjfcg2kmvcvysfwnvl",
 };
 
 const Blogs = {
@@ -47,12 +48,26 @@ const CrewMembers = {
     M11:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Crew%20Member/m8oi93wqzskwqg6sgzg7"
 }
 
+const VideoGalleryLink = { 
+    V1:"https://youtube.com/shorts/IPGamxU01tM?feature=share",
+    V2:"https://youtube.com/shorts/JgNHPrEHWcw?feature=share",
+    V3:"https://youtube.com/shorts/EeNi86VNR98?feature=share",
+    V4:"https://youtube.com/shorts/sU4JHg4Hvd0?feature=share",
+    V5:"https://youtube.com/shorts/M3zPq3-pnBE?feature=share",
+    V6:"https://youtube.com/shorts/0cCQk1MzOyM?feature=share" ,
+    V7:"https://youtube.com/shorts/_8GTaIevObk?feature=share",
+    V8:"https://youtube.com/shorts/eoIMgEtFEaw?feature=share",
+    V9:"https://youtube.com/shorts/rCHcDH4yrOk?feature=share",
+    V10:"https://res.cloudinary.com/dypgcizq4/video/upload/f_auto:video,q_auto/v1/assets/VideoGallery/yri3pnjwjha15m2dj0ei",
+    V11:"https://res.cloudinary.com/dypgcizq4/video/upload/f_auto:video,q_auto/v1/assets/VideoGallery/mnebnmb80m6qlaxqxdel"
+}
+
 const AboutUsDohimg = "";
 const accdog = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdog_qpwuup";
 const accdog1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdog1_gfcxf6";
 const accdogcom = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/accdogcom_efgfsk";
 const accfood = "";
-const BgAboutUs = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/fkeix8ssy2jrgm6xc0fd";
+const BgAboutUs = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/i2jzwx1dzkcppilmldq8";
 const blog = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/blog_ktgtkc";
 const biks = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/briks_q3otzs";
 const d1 = "";
@@ -85,8 +100,13 @@ const s1 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/a
 const s2 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/s2_nan1rz";
 const s3 = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/s3_tffjbf";
 const untitledDesign = "https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Untitled_design_okcipg";
+const DogDayCare="https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Services/fbvprzyzmg6e5cvizc00"
+const DogDay="https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Services/a5zzu9h8u33wqepr5gzu"
 
 export {
+    VideoGalleryLink,
+    DogDay,
+    DogDayCare,
     CrewMembers,
     Accomadation,
     Blogs,

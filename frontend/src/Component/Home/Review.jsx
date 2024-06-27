@@ -58,7 +58,7 @@ function Review() {
       <div className="  bg-orange-500 font-bold  text-black text-xl h-52 w-full relative  mt-60  flex justify-center items-center">
       <Link to="https://maps.app.goo.gl/6iWaa8jVXbXauzcB7?g_st=iwb"> Sell All The Google Reviews</Link>
      
-      </div>
+       </div>
 
       
   <div className="flex flex-row space-x-4  absolute -top-52 overflow-x-auto w-full p-5 ">

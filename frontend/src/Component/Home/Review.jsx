@@ -6,16 +6,16 @@ function Review() {
 
   const review = [
     {
-      name:"Hollohon Daulagupu",
-      review:"This dog boarding house deserves nothing short of five stars! From the moment you step in, it's evident that the staff is dedicated to providing exceptional care for our furry friends.",
-      img:"https://lh3.googleusercontent.com/a/ACg8ocItqWemofFZb4PA58uAJdux5aEXjtftJC27kuYdU2jMTnsS0Q=w45-h45-p-rp-mo-br100",
-      readmore:"https://maps.app.goo.gl/aK64Q6m32dStutVV7"
+      name:"Pooja Dash",
+      review:"Have opted walking service for my baby, Rio (Shihtzu) and he absolutely loving Hallahan (Walker) ,very much experienced and professional in handling and caring Rio (mine is little spoiled and having so much of tantrums).",
+      img:"https://lh3.googleusercontent.com/a-/ALV-UjUJsgAYV6LIP-vfDM4_Fv2EM-ivpbqQ4jE8tVG5GYoBRA2Ik7Y=w75-h75-p-rp-mo-br100",
+      readmore:"https://maps.app.goo.gl/fTPBvVQPSm3U2Lsp9"
     },
     {
-      name:"Akash Roy",
-      review:"Just brilliant! Priya made my dog so comfortable. Love normally takes sometime to get comfortable with anyone but with her it just took 10 mins.",
-      img:"https://lh3.googleusercontent.com/a-/ALV-UjWimej2eBYIeJ6HHFk55mYzi60Bklj2D66yTSbU5qDGxIQYCAsV=w75-h75-p-rp-mo-br100",
-      readmore:"https://maps.app.goo.gl/gVerA2LjMieq5Jdf6"
+      name:"Sheba Philip",
+      review:"Our not-very-social Shih Tzu felt at home when we left him for a few days at Scooby Doo Doo. The staff and management ensured that his stay was comfortable. They even gave us constant updates on how our little pooch was doing",
+      img:"https://lh3.googleusercontent.com/a-/ALV-UjUbXtoHIFDvqyKxfN4_aHMsqLHt9DzGwPgm4LrUXBCeWmwDcoc0=w75-h75-p-rp-mo-br100",
+      readmore:"https://maps.app.goo.gl/4Re2eTLEH9J4orX3A"
     },
     {
       name:"Aakansha Kapoor",

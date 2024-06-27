@@ -27,10 +27,10 @@ const Home = {
 
 const PhotoGallery = {
     Dog1:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/PhotoGallery/Dog1_obwn7k",
-    Dog2:"",
+    Dog2:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/PhotoGallery/fi4tas1zxzdsnmhubdv2",
     Dog3:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/PhotoGallery/Dog3_pabgvi",
     Dog4:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/PhotoGallery/Dog4_stbhql",
-    Dog5:"",
+    Dog5:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/PhotoGallery/d0xm4p1fc8ccbjdxsnm4",
     Dog6:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/PhotoGallery/Dog6_vlqh3r",
 };
 

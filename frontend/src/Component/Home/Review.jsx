@@ -24,23 +24,18 @@ function Review() {
       readmore:"https://maps.app.goo.gl/54ftYRtAiDF1RK2VA"
     },
     {
-      name:"Aakansha Kapoor",
-      review:" I have never left my fur baby Muffin with anyone in the last 3 years and last two days were his first time at a boarding without us.",
-      img:"https://lh3.googleusercontent.com/a-/ALV-UjW4Ed-wKuyLkzp21Xl9WRPPmVWccKRaUaDislNjcS7M7T8sunku=w75-h75-p-rp-mo-br100",
-      readmore:"https://maps.app.goo.gl/54ftYRtAiDF1RK2VA"
+      name:"Sraavan Chevireddy",
+      review:" Pet boarding not just requires professionalism. But, the fur friends need attention, care and affection. No doubt, Mr. and Mrs. Arno have extraordinary etiquette in handling fur friends.",
+      img:"https://lh3.googleusercontent.com/a-/ALV-UjVFVL3biN1mROQKL3Mf1vLhXHFoE0CtoLLQh6YjxpDxE6Jrlne1=w75-h75-p-rp-mo-br100",
+      readmore:"https://maps.app.goo.gl/QEPaCCzo1dQBiutP8"
     },
     {
-      name:"Aakansha Kapoor",
-      review:" I have never left my fur baby Muffin with anyone in the last 3 years and last two days were his first time at a boarding without us.",
-      img:"https://lh3.googleusercontent.com/a-/ALV-UjW4Ed-wKuyLkzp21Xl9WRPPmVWccKRaUaDislNjcS7M7T8sunku=w75-h75-p-rp-mo-br100",
-      readmore:"https://maps.app.goo.gl/54ftYRtAiDF1RK2VA"
+      name:"Kamarsu Sai Teja Aravind",
+      review:"The experience was Amazing, they treated our pet like they’re own. Nice stay for pets and the care for my pet was great and the owner duo were really very helpful and supportive.",
+      img:"https://lh3.googleusercontent.com/a-/ALV-UjXc_brrsSoiztr95F4s8v5cgob1nscSZgqPLlZeFBMRm8OahZlS=w75-h75-p-rp-mo-br100",
+      readmore:"https://maps.app.goo.gl/niAYopUfS15M45CQA"
     },
-    {
-      name:"Aakansha Kapoor",
-      review:" I have never left my fur baby Muffin with anyone in the last 3 years and last two days were his first time at a boarding without us.",
-      img:"https://lh3.googleusercontent.com/a-/ALV-UjW4Ed-wKuyLkzp21Xl9WRPPmVWccKRaUaDislNjcS7M7T8sunku=w75-h75-p-rp-mo-br100",
-      readmore:"https://maps.app.goo.gl/54ftYRtAiDF1RK2VA"
-    }
+    
   ]
   return (
     <div className='mt-96 md:mt-20'>

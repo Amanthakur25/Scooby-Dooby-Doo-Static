@@ -9,11 +9,14 @@ const Navbar = () => {
   const [activeMenu, setActiveMenu] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navRef = useRef();
+  const desRef = useRef();
   const [openSubMenu, setOpenSubMenu] = useState(null);
   const [isScrolled, setIsScrolled] = useState(false);
+
   const handleSubMenuToggle = (index) => {
     setOpenSubMenu(openSubMenu === index ? null : index);
   };
+
   const navItems = [
     {
       name: "Home",
@@ -91,24 +94,42 @@ const Navbar = () => {
   const handleClickOutside = (event) => {
     if (navRef.current && !navRef.current.contains(event.target)) {
       setActiveMenu(null);
-      setMobileMenuOpen(false);
+      if(mobileMenuOpen){
+        setMobileMenuOpen(false);
+      }
+      setOpenSubMenu(null)
+      
     }
   };
 
+ 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
+    setOpenSubMenu(null)
+  };
+
+  const handleNavItemClick = (index) => {
+    if (!navItems[index].subCategory) {
+      setMobileMenuOpen(false); // Close mobile menu if no subCategory
+    } else {
+      handleSubMenuToggle(index); // Toggle submenu if subCategory exists
+    }
   };
 
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
+    
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
+      
     };
-  }, []);
+  }, [handleClickOutside]);
+
+ 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -182,7 +203,7 @@ const Navbar = () => {
               </div>
             </span>
           </div>
-          <nav className=" p-2 ">
+          <nav ref={navRef} className=" p-2 ">
             <ul className="flex flex-col md:flex-row md:space-x-4">
               {navItems.map((nav, index) => (
                 <li key={index} className=" relative">
@@ -230,7 +251,7 @@ const Navbar = () => {
                   <Link
                     to={nav.path}
                     className={text}
-                    onClick={() => handleSubMenuToggle(index)}
+                    onClick={() => handleNavItemClick(index)}
                   >
                     {nav.name}
                   </Link>

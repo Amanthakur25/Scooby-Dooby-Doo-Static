@@ -18,10 +18,10 @@ const Choose = {
 };
 
 const Home = {
-    H1:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/fvxf57xuwqm4934p5icx",
-    H2:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/owdaokmdauoiaguteqie",
-    H3:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/pebf02jwvfajvuzwz6hn",
-    H4:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/h4uweojxesk10ehjgdid",
+    H1:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/vd45sl4gde1jxnujqli5",
+    H2:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/xqdwu5cx0i4hk1hobuct",
+    H3:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/mfzws2dtuiax5n3msuer",
+    H4:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/revinbxa1ae3qiy8o3yv",
     H5:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/H1_5_h4xnii",
 };
 

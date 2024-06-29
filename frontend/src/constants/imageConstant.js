@@ -23,6 +23,10 @@ const Home = {
     H3:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/mfzws2dtuiax5n3msuer",
     H4:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/revinbxa1ae3qiy8o3yv",
     H5:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/H1_5_h4xnii",
+    H6:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/h4uweojxesk10ehjgdid",
+    H7:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/pebf02jwvfajvuzwz6hn",
+    H8:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/owdaokmdauoiaguteqie",
+    H9:"https://res.cloudinary.com/dypgcizq4/image/upload/f_auto,q_auto/v1/assets/Home/x0w9xjs07rtiijvgbmhx",
 };
 
 const PhotoGallery = {

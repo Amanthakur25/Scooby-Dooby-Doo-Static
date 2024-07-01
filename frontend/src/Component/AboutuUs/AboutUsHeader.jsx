@@ -185,7 +185,7 @@ function AboutUsHeader() {
           />
         </div>
       </div>
-      <div className=" flex justify-center items-center text-justify ">
+      <div className=" flex justify-center flex-wrap items-center text-justify">
         <div className=" py-40 max-xl:px-10">
          
             <p className=" text-[28px] text-[#e87200] font-bold "> 
